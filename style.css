@@ -20,4 +20,5 @@ a {
 
 .header-ul {
   display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

@@ -5,6 +5,7 @@ $justify-space-around: space-around;
 $justify-evenly: space-evenly;
 $blue-color: #1D71B8;
 $align-items: center;
+$font-size-25: 25px;
 
 * {
     margin: 0;
@@ -41,13 +42,72 @@ a {
         justify-content: $justify-space-around;
         align-items: $justify-center;
         // justify-content: $justify-space-around;
-        border: 1px solid yellow;
     }
 
     .header-li {
         a {
             color: $blue-color;
             font-size: 23px;
+        }
+    }
+}
+
+.nav {
+    .michel-texts {
+        width: 100%;
+        max-width: 700px;
+        display: $display-flex;
+        align-items: $justify-center;
+        justify-content: $justify-space-between;
+        border: 1px solid yellow;
+        .michel-text {
+            h2 {
+                font-size: 30px;
+            }
+            p {
+                font-size: $font-size-25;
+            }
+        }
+
+        .opoqi{
+            width: 90px;
+        }
+        .michel-input {
+            text-align: center;
+            .foiz {
+                line-height: normal;
+                font-size: 30px;
+                color: black;
+                font-weight: 600;
+            }
+            p{
+                color: gray;
+                font-size: 20px;
+            }
+        }
+
+        .houry {
+            text-align: $justify-center;
+            line-height: 30px;
+            h4{
+                font-size: $font-size-25;
+                font-weight: 600;
+            }
+            p {
+                color: gray;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+
+        .michel-icon {
+            padding: 10px;
+            border: 1px solid #1D71B8;
+            border-radius: 8px;
+            i {
+                font-size: 25px;
+                color: #1D71B8;
+            }
         }
     }
 }

@@ -33,9 +33,61 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid yellow;
 }
 .header-ul .header-li a {
   color: #1D71B8;
   font-size: 23px;
+}
+
+.nav .michel-texts {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid yellow;
+}
+.nav .michel-texts .michel-text h2 {
+  font-size: 30px;
+}
+.nav .michel-texts .michel-text p {
+  font-size: 25px;
+}
+.nav .michel-texts .opoqi {
+  width: 90px;
+}
+.nav .michel-texts .michel-input {
+  text-align: center;
+}
+.nav .michel-texts .michel-input .foiz {
+  line-height: normal;
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+.nav .michel-texts .michel-input p {
+  color: gray;
+  font-size: 20px;
+}
+.nav .michel-texts .houry {
+  text-align: center;
+  line-height: 30px;
+}
+.nav .michel-texts .houry h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.nav .michel-texts .houry p {
+  color: gray;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav .michel-texts .michel-icon {
+  padding: 10px;
+  border: 1px solid #1D71B8;
+  border-radius: 8px;
+}
+.nav .michel-texts .michel-icon i {
+  font-size: 25px;
+  color: #1D71B8;
 }/*# sourceMappingURL=style.css.map */

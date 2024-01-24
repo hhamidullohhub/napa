@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: sans-serif;
 }
 
 a {
@@ -21,4 +22,20 @@ a {
 .header-ul {
   display: flex;
   justify-content: space-between;
+}
+.header-ul h1 {
+  color: #1D71B8;
+  font-size: 45px;
+}
+.header-ul .li-all {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid yellow;
+}
+.header-ul .header-li a {
+  color: #1D71B8;
+  font-size: 23px;
 }/*# sourceMappingURL=style.css.map */

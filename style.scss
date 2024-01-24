@@ -11,6 +11,7 @@ $align-items: center;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: sans-serif;
 }
 
 a {
@@ -28,11 +29,25 @@ a {
 
 .header-ul {
     display: flex;
-    justify-content: $justify-between;
+    justify-content: $justify-space-between;
+    h1 {
+        color: $blue-color;
+        font-size: 45px;
+    }
     .li-all {
-        width: ;
+        width: 100%;
+        max-width: 500px;
         display: $display-flex;
-        border: 1px solid green;
         justify-content: $justify-space-around;
+        align-items: $justify-center;
+        // justify-content: $justify-space-around;
+        border: 1px solid yellow;
+    }
+
+    .header-li {
+        a {
+            color: $blue-color;
+            font-size: 23px;
+        }
     }
 }

@@ -31,17 +31,18 @@ a {
 .header-ul {
     display: flex;
     justify-content: $justify-space-between;
+
     h1 {
         color: $blue-color;
         font-size: 45px;
     }
+
     .li-all {
         width: 100%;
         max-width: 500px;
         display: $display-flex;
         justify-content: $justify-space-around;
         align-items: $justify-center;
-        // justify-content: $justify-space-around;
     }
 
     .header-li {
@@ -55,32 +56,37 @@ a {
 .nav {
     .michel-texts {
         width: 100%;
-        max-width: 700px;
+        max-width: 770px;
         display: $display-flex;
         align-items: $justify-center;
         justify-content: $justify-space-between;
         border: 1px solid yellow;
+
         .michel-text {
             h2 {
                 font-size: 30px;
             }
+
             p {
                 font-size: $font-size-25;
             }
         }
 
-        .opoqi{
+        .opoqi {
             width: 90px;
         }
+
         .michel-input {
             text-align: center;
+
             .foiz {
                 line-height: normal;
                 font-size: 30px;
                 color: black;
                 font-weight: 600;
             }
-            p{
+
+            p {
                 color: gray;
                 font-size: 20px;
             }
@@ -89,10 +95,12 @@ a {
         .houry {
             text-align: $justify-center;
             line-height: 30px;
-            h4{
+
+            h4 {
                 font-size: $font-size-25;
                 font-weight: 600;
             }
+
             p {
                 color: gray;
                 font-size: 20px;
@@ -104,9 +112,82 @@ a {
             padding: 10px;
             border: 1px solid #1D71B8;
             border-radius: 8px;
+
             i {
                 font-size: 25px;
                 color: #1D71B8;
+            }
+        }
+    }
+}
+
+.michel-all {
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    // justify-content: space-between;
+    border: 1px solid rebeccapurple;
+
+    .michel-lorem {
+        width: 100%;
+        max-width: 770px;
+        border: 1px solid cadetblue;
+
+        h5 {
+            padding-top: 20px;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            line-height: 34px;
+        }
+
+        p {
+            padding-top: 20px;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            line-height: 34px;
+        }
+
+        .lorem-link-all {
+            display: flex;
+            justify-content: space-between;
+            .michel-lorem-link {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: normal;
+                color: #1D71B8;
+                padding-top: 20px;
+            }
+
+            .see-public {
+                display: inline-flex;
+                justify-content: $justify-center;
+                align-items: $justify-center;
+                background-color: #1D71B8;
+                border-radius: 8px;
+                color: white;
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    .boxs {
+        width: 100%;
+        max-width: 770px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: $justify-space-between;
+        border: 1px solid green;
+
+        .boxs-child-father {
+            width: 100%;
+            max-width: 370px;
+            border: 1px solid black;
+
+            .boxs-child {
+                img {
+                    width: 100%;
+                }
             }
         }
     }

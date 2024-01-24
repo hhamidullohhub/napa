@@ -41,7 +41,7 @@ a {
 
 .nav .michel-texts {
   width: 100%;
-  max-width: 700px;
+  max-width: 770px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,4 +90,63 @@ a {
 .nav .michel-texts .michel-icon i {
   font-size: 25px;
   color: #1D71B8;
+}
+
+.michel-all {
+  border: 1px solid rebeccapurple;
+}
+.michel-all .michel-lorem {
+  width: 100%;
+  max-width: 770px;
+  border: 1px solid cadetblue;
+}
+.michel-all .michel-lorem h5 {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 34px;
+}
+.michel-all .michel-lorem p {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 34px;
+}
+.michel-all .michel-lorem .lorem-link-all {
+  display: flex;
+  justify-content: space-between;
+}
+.michel-all .michel-lorem .lorem-link-all .michel-lorem-link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: #1D71B8;
+  padding-top: 20px;
+}
+.michel-all .michel-lorem .lorem-link-all .see-public {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D71B8;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+}
+.michel-all .boxs {
+  width: 100%;
+  max-width: 770px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  border: 1px solid green;
+}
+.michel-all .boxs .boxs-child-father {
+  width: 100%;
+  max-width: 370px;
+  border: 1px solid black;
+}
+.michel-all .boxs .boxs-child-father .boxs-child img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

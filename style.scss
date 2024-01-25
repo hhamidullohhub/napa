@@ -414,12 +414,15 @@ a {
     }
 
     .educations {
+        padding-bottom: 20px;
+
         .educations-texts {
             width: 100%;
             max-width: 180px;
             display: $display-flex;
             justify-content: $justify-space-between;
             align-items: $justify-center;
+
             h3 {
                 color: var(--Black, #323232);
                 font-size: 25px;
@@ -427,6 +430,7 @@ a {
                 font-weight: 600;
                 line-height: normal;
             }
+
             i {
                 border: 1px solid #1D71B8;
                 font-size: 10px;
@@ -449,17 +453,64 @@ a {
                 line-height: 30px;
                 padding-top: 20px;
             }
+        }
+    }
 
-            // .skans2 {
-            //     width: 100%;
-            //     max-width: 350px;
-            //     color: var(--Black, #323232);
-            //     font-size: 20px;
-            //     font-style: normal;
-            //     font-weight: 500;
-            //     line-height: 30px;
-            //     border: 1px solid red;
-            // }
+    .experience {
+        padding: 20px 0px;
+
+        .experience-text {
+            width: 100%;
+            max-width: 180px;
+            display: $display-flex;
+            justify-content: $justify-space-between;
+            align-items: center;
+
+            h3 {
+                font-size: $font-size-25;
+                line-height: 45px;
+                padding-bottom: 5px;
+            }
+
+            i {
+                border: 1px solid #1D71B8;
+                font-size: 10px;
+                padding: 10px;
+                border-radius: 8px;
+                color: #1D71B8;
+            }
+        }
+
+        p {
+            color: var(--Black, #323232);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+        }
+    }
+
+    .skills {
+        .skill {
+            width: 100%;
+            max-width: 120px;
+            display: $display-flex;
+            justify-content: $justify-space-between;
+            align-items: center;
+
+            h3 {
+                font-size: $font-size-25;
+                line-height: 45px;
+                padding-bottom: 5px;
+            }
+
+            i {
+                border: 1px solid #1D71B8;
+                font-size: 10px;
+                padding: 10px;
+                border-radius: 8px;
+                color: #1D71B8;
+            }
         }
     }
 }

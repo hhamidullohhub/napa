@@ -332,6 +332,9 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+.michel2 .educations {
+  padding-bottom: 20px;
+}
 .michel2 .educations .educations-texts {
   width: 100%;
   max-width: 180px;
@@ -365,4 +368,52 @@ a {
   font-weight: 500;
   line-height: 30px;
   padding-top: 20px;
+}
+.michel2 .experience {
+  padding: 20px 0px;
+}
+.michel2 .experience .experience-text {
+  width: 100%;
+  max-width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.michel2 .experience .experience-text h3 {
+  font-size: 25px;
+  line-height: 45px;
+  padding-bottom: 5px;
+}
+.michel2 .experience .experience-text i {
+  border: 1px solid #1D71B8;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #1D71B8;
+}
+.michel2 .experience p {
+  color: var(--Black, #323232);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.michel2 .skills .skill {
+  width: 100%;
+  max-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.michel2 .skills .skill h3 {
+  font-size: 25px;
+  line-height: 45px;
+  padding-bottom: 5px;
+}
+.michel2 .skills .skill i {
+  border: 1px solid #1D71B8;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #1D71B8;
 }/*# sourceMappingURL=style.css.map */

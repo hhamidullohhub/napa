@@ -25,7 +25,6 @@ a {
     max-width: 1410px;
     margin: 0 auto;
     padding: 0px 20px;
-    border: 1px solid red;
 }
 
 .header-ul {
@@ -128,8 +127,6 @@ a {
 
 .michel-all {
     padding-top: 50px;
-    border: 1px solid red;
-
     .michel-lorem {
         width: 100%;
         max-width: 860px;
@@ -302,7 +299,6 @@ a {
     padding-top: 60px;
     width: 100%;
     max-width: 450px;
-    border: 1px solid red;
 
     .numbers {
         display: $display-flex;
@@ -491,6 +487,8 @@ a {
     }
 
     .skills {
+        padding: 20px 0;
+
         .skill {
             width: 100%;
             max-width: 120px;
@@ -511,6 +509,168 @@ a {
                 border-radius: 8px;
                 color: #1D71B8;
             }
+        }
+
+        .skills-buttons {
+            width: 100%;
+            max-width: 315px;
+            display: $display-flex;
+            justify-content: $justify-space-between;
+
+            .skill-button {
+                border: none;
+                box-shadow: 0px 0px 3px 0px rgba(41, 115, 152, 0.25);
+                background: var(--White, #FFF);
+                font-size: 18px;
+                color: #1D71B8;
+                padding: 6px 10px;
+                border-radius: 6px;
+            }
+        }
+    }
+
+    .contacts {
+        padding: 25px 0;
+
+        .contact-text {
+            width: 100%;
+            max-width: 150px;
+            display: $display-flex;
+            justify-content: $justify-space-between;
+            align-items: center;
+
+            h3 {
+                font-size: $font-size-25;
+                line-height: 45px;
+                padding-bottom: 5px;
+            }
+
+            i {
+                border: 1px solid #1D71B8;
+                font-size: 10px;
+                padding: 10px;
+                border-radius: 8px;
+                color: #1D71B8;
+            }
+        }
+
+        .locals {
+            .telegram {
+                color: #40B3E0;
+            }
+
+            .whatsapp {
+                color: #39AE41;
+            }
+
+            .facebook {
+                color: #004F9D;
+            }
+
+            .instagram {
+                color: rgb(241, 109, 131);
+            }
+
+            .twitter {
+                color: #55ACEE;
+            }
+
+            .local-child {
+                width: 100%;
+                max-width: 150px;
+                display: flex;
+                justify-content: $justify-space-between;
+
+                // border: 1px solid red;
+                i {
+                    font-size: 24px;
+                }
+
+                a {
+                    color: var(--Black, #323232);
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+    .living-adress {
+        padding: 20px 0;
+
+        .living-text {
+            width: 100%;
+            max-width: 210px;
+            display: $display-flex;
+            justify-content: $justify-space-between;
+            align-items: $justify-center;
+
+            h3 {
+                color: var(--Black, #323232);
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            i {
+                border: 1px solid #1D71B8;
+                font-size: 10px;
+                padding: 10px;
+                border-radius: 8px;
+                color: #1D71B8;
+            }
+        }
+
+        .map {
+            width: 100%;
+            max-width: 220px;
+            display: $display-flex;
+            justify-content: $justify-space-between;
+
+            i {
+                font-size: 20px;
+                color: #1D71B8;
+            }
+
+            p {
+                color: var(--Gray, #808080);
+                text-align: right;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+
+    .member-since {
+        padding: 20px 0;
+        h3 {
+            color: var(--Black, #323232);
+            letter-spacing: 3px;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        p {
+            color: var(--Black, #323232);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+        }
+
+        a {
+            background: var(--blue-main-colour, #1D71B8);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
         }
     }
 }

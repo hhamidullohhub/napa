@@ -327,7 +327,7 @@ a {
 
         .available-text {
             width: 100%;
-            max-width: 200px;
+            max-width: 180px;
             display: $display-flex;
             justify-content: $justify-space-between;
             align-items: center;
@@ -340,7 +340,7 @@ a {
 
             i {
                 border: 1px solid #1D71B8;
-                font-size: 15px;
+                font-size: 10px;
                 padding: 10px;
                 border-radius: 8px;
                 color: #1D71B8;
@@ -360,7 +360,7 @@ a {
 
         .languages-text {
             width: 100%;
-            max-width: 200px;
+            max-width: 180px;
             display: $display-flex;
             justify-content: $justify-space-between;
             align-items: center;
@@ -373,7 +373,7 @@ a {
 
             i {
                 border: 1px solid #1D71B8;
-                font-size: 15px;
+                font-size: 10px;
                 padding: 10px;
                 border-radius: 8px;
                 color: #1D71B8;
@@ -403,12 +403,63 @@ a {
         .verified {
             padding-top: 15px;
             display: $display-flex;
+
             p {
                 font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
             }
+        }
+    }
+
+    .educations {
+        .educations-texts {
+            width: 100%;
+            max-width: 180px;
+            display: $display-flex;
+            justify-content: $justify-space-between;
+            align-items: $justify-center;
+            h3 {
+                color: var(--Black, #323232);
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            i {
+                border: 1px solid #1D71B8;
+                font-size: 10px;
+                padding: 10px;
+                border-radius: 8px;
+                color: #1D71B8;
+            }
+        }
+
+        .educations-text {
+            width: 100%;
+
+            p {
+                width: 100%;
+                max-width: 350px;
+                color: var(--Black, #323232);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 30px;
+                padding-top: 20px;
+            }
+
+            // .skans2 {
+            //     width: 100%;
+            //     max-width: 350px;
+            //     color: var(--Black, #323232);
+            //     font-size: 20px;
+            //     font-style: normal;
+            //     font-weight: 500;
+            //     line-height: 30px;
+            //     border: 1px solid red;
+            // }
         }
     }
 }

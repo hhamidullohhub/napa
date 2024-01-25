@@ -260,7 +260,7 @@ a {
 }
 .michel2 .available .available-text {
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -272,7 +272,7 @@ a {
 }
 .michel2 .available .available-text i {
   border: 1px solid #1D71B8;
-  font-size: 15px;
+  font-size: 10px;
   padding: 10px;
   border-radius: 8px;
   color: #1D71B8;
@@ -288,7 +288,7 @@ a {
 }
 .michel2 .languages .languages-text {
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -300,7 +300,7 @@ a {
 }
 .michel2 .languages .languages-text i {
   border: 1px solid #1D71B8;
-  font-size: 15px;
+  font-size: 10px;
   padding: 10px;
   border-radius: 8px;
   color: #1D71B8;
@@ -331,4 +331,38 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.michel2 .educations .educations-texts {
+  width: 100%;
+  max-width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.michel2 .educations .educations-texts h3 {
+  color: var(--Black, #323232);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.michel2 .educations .educations-texts i {
+  border: 1px solid #1D71B8;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #1D71B8;
+}
+.michel2 .educations .educations-text {
+  width: 100%;
+}
+.michel2 .educations .educations-text p {
+  width: 100%;
+  max-width: 350px;
+  color: var(--Black, #323232);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 20px;
 }/*# sourceMappingURL=style.css.map */

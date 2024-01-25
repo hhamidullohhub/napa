@@ -41,11 +41,10 @@ a {
 
 .nav .michel-texts {
   width: 100%;
-  max-width: 770px;
+  max-width: 860px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid yellow;
 }
 .nav .michel-texts .michel-text h2 {
   font-size: 30px;
@@ -92,13 +91,18 @@ a {
   color: #1D71B8;
 }
 
+.michel-display {
+  display: flex;
+  justify-content: space-between;
+}
+
 .michel-all {
-  border: 1px solid rebeccapurple;
+  padding-top: 50px;
+  border: 1px solid red;
 }
 .michel-all .michel-lorem {
   width: 100%;
-  max-width: 770px;
-  border: 1px solid cadetblue;
+  max-width: 860px;
 }
 .michel-all .michel-lorem h5 {
   padding-top: 20px;
@@ -115,6 +119,7 @@ a {
   line-height: 34px;
 }
 .michel-all .michel-lorem .lorem-link-all {
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -134,19 +139,142 @@ a {
   color: white;
   padding: 10px 20px;
 }
-.michel-all .boxs {
+.michel-all .portfolio-all {
+  padding-top: 70px;
+}
+.michel-all .portfolio-all .portfolio14 {
+  padding-bottom: 20px;
+}
+.michel-all .portfolio-all .boxs {
   width: 100%;
-  max-width: 770px;
+  max-width: 860px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
-  border: 1px solid green;
+  gap: 30px;
 }
-.michel-all .boxs .boxs-child-father {
+.michel-all .portfolio-all .boxs .boxs-child-father {
   width: 100%;
-  max-width: 370px;
-  border: 1px solid black;
+  max-width: 405px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
 }
-.michel-all .boxs .boxs-child-father .boxs-child img {
+.michel-all .portfolio-all .boxs .boxs-child-father .boxs-child {
+  border-radius: 12px;
+  background-color: #fff;
+}
+.michel-all .portfolio-all .boxs .boxs-child-father .boxs-child img {
   width: 100%;
+}
+.michel-all .portfolio-all .boxs .boxs-child-father .boxs-child h3 {
+  font-size: 20px;
+}
+.michel-all .portfolio-all .boxs .boxs-child-father .boxs-child p {
+  color: rgba(128, 128, 128, 0.5019607843);
+}
+.michel-all .portfolio-all .boxs .boxs-child-father .boxs-child h3, .michel-all .portfolio-all .boxs .boxs-child-father .boxs-child p {
+  padding: 7px 10px;
+}
+.michel-all .work-history {
+  width: 100%;
+  max-width: 860px;
+}
+.michel-all .work-history .work {
+  font-size: 30px;
+  padding-top: 50px;
+}
+.michel-all .work-history .work-links-title {
+  padding-top: 10px;
+}
+.michel-all .work-history .odoo {
+  padding-top: 20px;
+}
+.michel-all .work-history .odoo .odoo-all {
+  margin-top: 10px;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.michel-all .work-history .odoo .odoo-all .odoo-child h2 {
+  color: #1D71B8;
+}
+.michel-all .work-history .odoo .odoo-all .odoo-child i {
+  padding: 10px 0px;
+  color: #1D71B8;
+}
+.michel-all .work-history .odoo .odoo-all .odoo-child p {
+  padding: 10px 0px;
+}
+.michel-all .work-history .odoo .odoo-all .napa {
+  width: 100%;
+  max-width: 860px;
+  display: flex;
+  justify-content: space-between;
+}
+.michel-all .work-history .odoo .odoo-all .napa .napa-img {
+  width: 100%;
+  max-width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.michel-all .work-history .odoo .odoo-all .napa .houry-all {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.michel-all .work-history .odoo .odoo-all .napa .houry-all .napa-houry {
+  text-align: center;
+  line-height: 30px;
+}
+.michel-all .work-history .odoo .odoo-all .napa .houry-all .napa-houry h4 {
+  font-size: 20px;
+}
+.michel-all .work-history .odoo .odoo-all .napa .houry-all .napa-houry p {
+  color: rgba(128, 128, 128, 0.5019607843);
+}
+
+.michel2 {
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid red;
+}
+.michel2 .numbers {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.michel2 .numbers .earning h4 {
+  font-size: 25px;
+}
+.michel2 .numbers .earning p {
+  font-size: 16px;
+  color: rgba(128, 128, 128, 0.5019607843);
+}
+.michel2 .available {
+  border: 1px solid hotpink;
+}
+.michel2 .available .available-text {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+.michel2 .available .available-text h3 {
+  font-size: 25px;
+  line-height: 45px;
+}
+.michel2 .available .available-text i {
+  border: 1px solid #1D71B8;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #1D71B8;
+}
+.michel2 .available .available-text p {
+  font-size: 20px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

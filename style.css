@@ -52,7 +52,8 @@ a {
   font-size: 25px;
 }
 .nav .michel-texts .opoqi {
-  width: 90px;
+  width: 100%;
+  max-width: 90px;
 }
 .nav .michel-texts .michel-input {
   text-align: center;
@@ -95,7 +96,20 @@ a {
   justify-content: space-between;
 }
 
+.michel-border {
+  width: 100%;
+  max-width: 900px;
+  border: 20px solid white;
+}
+
+.michel-border2 {
+  width: 490px;
+  border: 20px solid rgb(255, 255, 255);
+}
+
 .michel-all {
+  width: 100%;
+  max-width: 860px;
   padding-top: 50px;
 }
 .michel-all .michel-lorem {
@@ -472,8 +486,10 @@ a {
 .michel2 .contacts .locals .local-child {
   width: 100%;
   max-width: 150px;
+  line-height: 30px;
   display: flex;
   justify-content: space-between;
+  padding: 7px 0;
 }
 .michel2 .contacts .locals .local-child i {
   font-size: 24px;
@@ -551,4 +567,42 @@ a {
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav .michel-texts {
+    flex-wrap: wrap;
+  }
+  .nav .michel-texts .michel-text h2 {
+    font-size: 20px;
+  }
+  .nav .michel-texts .michel-text p {
+    font-size: 19px;
+  }
+  .nav .michel-texts .michel-input {
+    text-align: center;
+  }
+  .nav .michel-texts .michel-input .foiz {
+    line-height: normal;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  .nav .michel-texts .michel-input p {
+    color: gray;
+    font-size: 15px;
+  }
+  .nav .michel-texts .houry {
+    text-align: center;
+    line-height: 30px;
+  }
+  .nav .michel-texts .houry h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nav .michel-texts .houry p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=style.css.map */

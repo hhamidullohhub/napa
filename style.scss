@@ -72,7 +72,8 @@ a {
         }
 
         .opoqi {
-            width: 90px;
+            width: 100%;
+            max-width: 90px;
         }
 
         .michel-input {
@@ -125,7 +126,20 @@ a {
     justify-content: space-between;
 }
 
+.michel-border {
+    width: 100%;
+    max-width: 900px;
+    border: 20px solid white;
+}
+
+.michel-border2 {
+    width: 490px;
+    border: 20px solid rgb(255, 255, 255);
+}
+
 .michel-all {
+    width: 100%;
+    max-width: 860px;
     padding-top: 50px;
     .michel-lorem {
         width: 100%;
@@ -578,10 +592,10 @@ a {
             .local-child {
                 width: 100%;
                 max-width: 150px;
+                line-height: 30px;
                 display: flex;
                 justify-content: $justify-space-between;
-
-                // border: 1px solid red;
+                padding: 7px 0;
                 i {
                     font-size: 24px;
                 }
@@ -671,6 +685,54 @@ a {
             color: white;
             padding: 10px 20px;
             border-radius: 8px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav {
+        .michel-texts {
+            flex-wrap: wrap;
+            .michel-text {
+                h2 {
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 19px;
+                }
+            }
+
+            .michel-input {
+                text-align: center;
+    
+                .foiz {
+                    line-height: normal;
+                    font-size: 20px;
+                    color: black;
+                    font-weight: 600;
+                }
+    
+                p {
+                    color: gray;
+                    font-size: 15px;
+                }
+            }
+
+            .houry {
+                text-align: $justify-center;
+                line-height: 30px;
+    
+                h4 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+    
+                p {
+                    color: gray;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
         }
     }
 }

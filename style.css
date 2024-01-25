@@ -172,7 +172,8 @@ a {
 .michel-all .portfolio-all .boxs .boxs-child-father .boxs-child p {
   color: rgba(128, 128, 128, 0.5019607843);
 }
-.michel-all .portfolio-all .boxs .boxs-child-father .boxs-child h3, .michel-all .portfolio-all .boxs .boxs-child-father .boxs-child p {
+.michel-all .portfolio-all .boxs .boxs-child-father .boxs-child h3,
+.michel-all .portfolio-all .boxs .boxs-child-father .boxs-child p {
   padding: 7px 10px;
 }
 .michel-all .work-history {
@@ -236,6 +237,7 @@ a {
 }
 
 .michel2 {
+  padding-top: 60px;
   width: 100%;
   max-width: 450px;
   border: 1px solid red;
@@ -244,6 +246,7 @@ a {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  padding-bottom: 15px;
 }
 .michel2 .numbers .earning h4 {
   font-size: 25px;
@@ -253,7 +256,7 @@ a {
   color: rgba(128, 128, 128, 0.5019607843);
 }
 .michel2 .available {
-  border: 1px solid hotpink;
+  padding: 15px 0px;
 }
 .michel2 .available .available-text {
   width: 100%;
@@ -261,20 +264,71 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 .michel2 .available .available-text h3 {
   font-size: 25px;
   line-height: 45px;
+  padding-bottom: 5px;
 }
 .michel2 .available .available-text i {
   border: 1px solid #1D71B8;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
   border-radius: 8px;
   color: #1D71B8;
 }
-.michel2 .available .available-text p {
+.michel2 .available p {
   font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.michel2 .languages {
+  padding-top: 20px;
+}
+.michel2 .languages .languages-text {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.michel2 .languages .languages-text h3 {
+  font-size: 25px;
+  line-height: 45px;
+  padding-bottom: 5px;
+}
+.michel2 .languages .languages-text i {
+  border: 1px solid #1D71B8;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #1D71B8;
+}
+.michel2 .languages p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 30px;
+  padding-bottom: 5px;
+}
+.michel2 .verifications {
+  padding: 15px 0px;
+}
+.michel2 .verifications h3 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.michel2 .verifications .verified {
+  padding-top: 15px;
+  display: flex;
+}
+.michel2 .verifications .verified p {
+  font-size: 20px;
+  font-style: normal;
   font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */

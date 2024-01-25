@@ -60,7 +60,7 @@ a {
         display: $display-flex;
         align-items: $justify-center;
         justify-content: $justify-space-between;
-        
+
 
         .michel-text {
             h2 {
@@ -129,6 +129,7 @@ a {
 .michel-all {
     padding-top: 50px;
     border: 1px solid red;
+
     .michel-lorem {
         width: 100%;
         max-width: 860px;
@@ -153,6 +154,7 @@ a {
             padding-top: 20px;
             display: flex;
             justify-content: space-between;
+
             .michel-lorem-link {
                 font-size: 20px;
                 font-weight: 400;
@@ -175,9 +177,11 @@ a {
 
     .portfolio-all {
         padding-top: 70px;
+
         .portfolio14 {
             padding-bottom: 20px;
         }
+
         .boxs {
             width: 100%;
             max-width: 860px;
@@ -185,31 +189,33 @@ a {
             grid-template-columns: repeat(2, 1fr);
             justify-content: space-between;
             gap: 30px;
-    
+
             .boxs-child-father {
                 width: 100%;
                 max-width: 405px;
                 border-radius: 12px;
                 box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
-    
-    
+
+
                 .boxs-child {
                     border-radius: 12px;
                     background-color: #fff;
+
                     img {
                         width: 100%;
                     }
-    
+
                     h3 {
                         font-size: 20px;
                     }
-    
+
                     p {
                         color: #80808080;
                     }
-    
-                    h3,p {
-                    padding: 7px 10px;
+
+                    h3,
+                    p {
+                        padding: 7px 10px;
                     }
                 }
             }
@@ -219,6 +225,7 @@ a {
     .work-history {
         width: 100%;
         max-width: 860px;
+
         .work {
             font-size: 30px;
             padding-top: 50px;
@@ -230,28 +237,34 @@ a {
 
         .odoo {
             padding-top: 20px;
+
             .odoo-all {
                 margin-top: 10px;
                 padding: 10px 20px;
                 box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
                 border-radius: 10px;
+
                 .odoo-child {
                     h2 {
                         color: #1D71B8;
                     }
+
                     i {
                         padding: 10px 0px;
                         color: #1D71B8;
                     }
+
                     p {
                         padding: 10px 0px;
                     }
                 }
+
                 .napa {
                     width: 100%;
                     max-width: 860px;
                     display: $display-flex;
                     justify-content: space-between;
+
                     .napa-img {
                         width: 100%;
                         max-width: 220px;
@@ -259,6 +272,7 @@ a {
                         align-items: center;
                         justify-content: space-between;
                     }
+
                     .houry-all {
                         width: 100%;
                         max-width: 200px;
@@ -268,9 +282,11 @@ a {
                         .napa-houry {
                             text-align: $justify-center;
                             line-height: 30px;
+
                             h4 {
                                 font-size: 20px;
                             }
+
                             p {
                                 color: #80808080;
                             }
@@ -283,17 +299,22 @@ a {
 }
 
 .michel2 {
+    padding-top: 60px;
     width: 100%;
     max-width: 450px;
     border: 1px solid red;
+
     .numbers {
         display: $display-flex;
         justify-content: space-between;
         text-align: center;
+        padding-bottom: 15px;
+
         .earning {
             h4 {
                 font-size: $font-size-25;
             }
+
             p {
                 font-size: 16px;
                 color: #80808080;
@@ -302,28 +323,91 @@ a {
     }
 
     .available {
-        border: 1px solid hotpink;
+        padding: 15px 0px;
+
         .available-text {
             width: 100%;
             max-width: 200px;
             display: $display-flex;
             justify-content: $justify-space-between;
             align-items: center;
-            border: 1px solid red;
+
             h3 {
                 font-size: $font-size-25;
                 line-height: 45px;
+                padding-bottom: 5px;
             }
+
             i {
                 border: 1px solid #1D71B8;
-                font-size: 20px;
+                font-size: 15px;
                 padding: 10px;
                 border-radius: 8px;
                 color: #1D71B8;
             }
+        }
+
+        p {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+    .languages {
+        padding-top: 20px;
+
+        .languages-text {
+            width: 100%;
+            max-width: 200px;
+            display: $display-flex;
+            justify-content: $justify-space-between;
+            align-items: center;
+
+            h3 {
+                font-size: $font-size-25;
+                line-height: 45px;
+                padding-bottom: 5px;
+            }
+
+            i {
+                border: 1px solid #1D71B8;
+                font-size: 15px;
+                padding: 10px;
+                border-radius: 8px;
+                color: #1D71B8;
+            }
+        }
+
+        p {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            line-height: 30px;
+            padding-bottom: 5px;
+        }
+    }
+
+    .verifications {
+        padding: 15px 0px;
+
+        h3 {
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .verified {
+            padding-top: 15px;
+            display: $display-flex;
             p {
                 font-size: 20px;
-                font-weight: 400;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
             }
         }
     }

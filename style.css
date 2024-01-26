@@ -29,14 +29,25 @@ a {
 }
 .header-ul .li-all {
   width: 100%;
-  max-width: 500px;
+  max-width: 800px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+.header-ul .li-all select {
+  text-align: center;
+  font-size: 15px;
+  padding: 8px 10px;
+  margin: 0px 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 0px #1D71B8;
+  border: none;
+}
 .header-ul .header-li a {
+  text-transform: capitalize;
   color: #1D71B8;
   font-size: 23px;
+  margin: 0 32px;
 }
 
 .nav .michel-texts {
@@ -241,8 +252,9 @@ a {
 }
 
 .michel2 {
-  padding-top: 60px;
-  width: 100%;
+  padding-top: 80px;
+  width: 450px;
+  border: 1px solid green;
 }
 .michel2 .numbers {
   display: flex;
@@ -607,7 +619,6 @@ a {
   }
   .michel2 {
     width: 100%;
-    border: 1px solid red;
     margin: auto;
   }
   .michel2 .numbers {

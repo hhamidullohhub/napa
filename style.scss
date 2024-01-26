@@ -39,16 +39,27 @@
 
         .li-all {
             width: 100%;
-            max-width: 500px;
+            max-width: 800px;
             display: $display-flex;
             justify-content: $justify-space-around;
             align-items: $justify-center;
+            select {
+                text-align: center;
+                font-size: 15px;
+                padding: 8px 10px;
+                margin: 0px 10px;
+                border-radius: 8px;
+                box-shadow: 0px 0px 5px 0px #1D71B8;
+                border: none;
+            }
         }
 
         .header-li {
             a {
+                text-transform: capitalize;
                 color: $blue-color;
                 font-size: 23px;
+                margin: 0 32px;
             }
         }
     }
@@ -325,8 +336,10 @@
     }
 
     .michel2 {
-        padding-top: 60px;
-        width: 100%;
+        padding-top: 80px;
+        width: 450px;
+        // max-width: 450px !important;
+        border: 1px solid green;
 
         .numbers {
             display: $display-flex;
@@ -769,8 +782,9 @@
 
         .michel2 {
             width: 100%;
-            border: 1px solid red;
+            // border: 1px solid red;
             margin: auto;
+
             .numbers {
                 text-align: center;
                 margin: auto;

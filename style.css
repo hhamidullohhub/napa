@@ -19,6 +19,7 @@ a {
 }
 
 .header-ul {
+  margin-top: 98px;
   display: flex;
   justify-content: space-between;
 }
@@ -94,23 +95,14 @@ a {
 .michel-display {
   display: flex;
   justify-content: space-between;
-}
-
-.michel-border {
-  width: 100%;
-  max-width: 900px;
-  border: 20px solid white;
-}
-
-.michel-border2 {
-  width: 490px;
-  border: 20px solid rgb(255, 255, 255);
+  gap: 30px;
 }
 
 .michel-all {
   width: 100%;
   max-width: 860px;
-  padding-top: 50px;
+  padding-top: 30px;
+  border: 1px solid red;
 }
 .michel-all .michel-lorem {
   width: 100%;
@@ -167,7 +159,6 @@ a {
 }
 .michel-all .portfolio-all .boxs .boxs-child-father {
   width: 100%;
-  max-width: 405px;
   border-radius: 12px;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
 }
@@ -604,5 +595,21 @@ a {
     color: gray;
     font-size: 15px;
     font-weight: 500;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header-ul h1 {
+    text-align: center;
+    margin: auto;
+  }
+  .header-ul .li-all {
+    display: none;
+  }
+  .michel2 .numbers {
+    flex-wrap: wrap;
+  }
+  .michel-all .portfolio-all .boxs {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */

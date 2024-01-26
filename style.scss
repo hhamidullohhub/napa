@@ -28,6 +28,7 @@ a {
 }
 
 .header-ul {
+    margin-top: 98px;
     display: flex;
     justify-content: $justify-space-between;
 
@@ -124,23 +125,25 @@ a {
 .michel-display {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .michel-border {
-    width: 100%;
-    max-width: 900px;
-    border: 20px solid white;
+    // width: 100%;
+    // max-width: 900px;
+    // border: 20px solid white;
 }
 
 .michel-border2 {
-    width: 490px;
-    border: 20px solid rgb(255, 255, 255);
+    // width: 490px;
+    // border: 20px solid rgb(255, 255, 255);
 }
 
 .michel-all {
     width: 100%;
     max-width: 860px;
-    padding-top: 50px;
+    padding-top: 30px;
+    border: 1px solid red;
     .michel-lorem {
         width: 100%;
         max-width: 860px;
@@ -203,7 +206,7 @@ a {
 
             .boxs-child-father {
                 width: 100%;
-                max-width: 405px;
+                // max-width: 405px;
                 border-radius: 12px;
                 box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
 
@@ -728,10 +731,38 @@ a {
                 }
     
                 p {
-                    // color: gray;
+                    color: gray;
                     font-size: 15px;
                     font-weight: 500;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header-ul {
+        h1 {
+            text-align: center;
+            margin: auto    ;
+        }
+        .li-all {
+            display: none;
+        }
+    }
+
+    .michel2 {
+        .numbers {
+            flex-wrap: wrap;
+        }
+    }
+
+    .michel-all {
+        .portfolio-all {
+            .boxs {
+                // display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                justify-content: center;
             }
         }
     }

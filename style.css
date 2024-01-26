@@ -103,6 +103,7 @@ a {
   max-width: 860px;
   padding-top: 30px;
   border: 1px solid red;
+  position: relative;
 }
 .michel-all .michel-lorem {
   width: 100%;
@@ -242,7 +243,6 @@ a {
 .michel2 {
   padding-top: 60px;
   width: 100%;
-  max-width: 450px;
 }
 .michel2 .numbers {
   display: flex;
@@ -605,7 +605,16 @@ a {
   .header-ul .li-all {
     display: none;
   }
+  .michel2 {
+    width: 100%;
+    border: 1px solid red;
+    margin: auto;
+  }
   .michel2 .numbers {
+    text-align: center;
+    margin: auto;
+  }
+  .michel-display {
     flex-wrap: wrap;
   }
   .michel-all .portfolio-all .boxs {

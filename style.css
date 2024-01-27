@@ -100,10 +100,19 @@ a {
   padding: 10px;
   border: 1px solid #1D71B8;
   border-radius: 8px;
+  transition: 0.3s;
 }
 .nav .michel-texts .michel-icon i {
   font-size: 25px;
   color: #1D71B8;
+}
+.nav .michel-texts .michel-icon:hover {
+  background-color: #073a6e;
+  color: white;
+  cursor: pointer;
+}
+.nav .michel-texts .michel-icon:hover i {
+  color: #fff;
 }
 
 .michel-display {
@@ -156,6 +165,10 @@ a {
   border-radius: 8px;
   color: white;
   padding: 10px 20px;
+}
+.michel-all .michel-lorem .lorem-link-all .see-public:hover {
+  background-color: #073a6e;
+  cursor: pointer;
 }
 .michel-all .portfolio-all {
   padding-top: 70px;
@@ -261,12 +274,14 @@ a {
 
 .michel2 {
   padding-top: 80px;
+  padding-left: 20px;
   width: 450px;
   background-image: url(./svg/dumalo.svg);
   background-repeat: no-repeat;
   background-size: 500px;
   height: auto;
   background-position: right 0 top 150px;
+  border-left: 2px solid gray;
 }
 .michel2 .numbers {
   display: flex;
@@ -302,6 +317,11 @@ a {
   padding: 10px;
   border-radius: 8px;
   color: #1D71B8;
+  transition: 0.3s;
+}
+.michel2 .available .available-text i:hover {
+  background-color: #073a6e;
+  color: #fff;
 }
 .michel2 .available p {
   font-size: 20px;
@@ -330,6 +350,11 @@ a {
   padding: 10px;
   border-radius: 8px;
   color: #1D71B8;
+  transition: 0.3s;
+}
+.michel2 .languages .languages-text i:hover {
+  color: #fff;
+  background-color: #073a6e;
 }
 .michel2 .languages p {
   font-size: 20px;
@@ -381,6 +406,11 @@ a {
   padding: 10px;
   border-radius: 8px;
   color: #1D71B8;
+  transition: 0.3s;
+}
+.michel2 .educations .educations-texts i:hover {
+  background-color: #073a6e;
+  color: #fff;
 }
 .michel2 .educations .educations-text {
   width: 100%;
@@ -415,7 +445,12 @@ a {
   font-size: 10px;
   padding: 10px;
   border-radius: 8px;
+  transition: 0.3s;
   color: #1D71B8;
+}
+.michel2 .experience .experience-text i:hover {
+  background-color: #073a6e;
+  color: #fff;
 }
 .michel2 .experience p {
   color: var(--Black, #323232);
@@ -445,6 +480,10 @@ a {
   padding: 10px;
   border-radius: 8px;
   color: #1D71B8;
+}
+.michel2 .skills .skill i:hover {
+  background-color: #073a6e;
+  color: #fff;
 }
 .michel2 .skills .skills-buttons {
   width: 100%;
@@ -481,7 +520,12 @@ a {
   font-size: 10px;
   padding: 10px;
   border-radius: 8px;
+  transition: 0.3s;
   color: #1D71B8;
+}
+.michel2 .contacts .contact-text i:hover {
+  background-color: #073a6e;
+  color: #fff;
 }
 .michel2 .contacts .locals .telegram {
   color: #40B3E0;
@@ -540,6 +584,11 @@ a {
   padding: 10px;
   border-radius: 8px;
   color: #1D71B8;
+  transition: 0.3s;
+}
+.michel2 .living-adress .living-text i:hover {
+  background-color: #073a6e;
+  color: #fff;
 }
 .michel2 .living-adress .map {
   width: 100%;
@@ -582,6 +631,9 @@ a {
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
+}
+.michel2 .member-since a:hover {
+  background-color: #073a6e;
 }
 
 @media screen and (max-width: 1080px) {

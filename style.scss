@@ -132,12 +132,22 @@
                 padding: 10px;
                 border: 1px solid #1D71B8;
                 border-radius: 8px;
+                transition: .3s;
                 
                 i {
                     font-size: 25px;
                     color: #1D71B8;
                 }
             }
+
+            .michel-icon:hover {
+                background-color: #073a6e;
+                color: white;
+                cursor: pointer;
+                i {
+                    color: #fff;
+                }
+            } 
         }
     }
     
@@ -146,16 +156,6 @@
         justify-content: space-between;
         gap: 30px;
     }
-
-    // .line {
-    //     position: absolute;
-    //     top: 500px;
-    //     left: 500px;
-    //     border: 1px solid #CDCDCD;
-    //     width: 100%;
-    //     // height: 100px;
-    //     transform: rotate(90deg);
-    // }
     
     .michel-all {
         width: 100%;
@@ -204,6 +204,11 @@
                     border-radius: 8px;
                     color: white;
                     padding: 10px 20px;
+                }
+
+                .see-public:hover {
+                    background-color: #073a6e;
+                    cursor: pointer;
                 }
             }
         }
@@ -339,12 +344,14 @@
 
     .michel2 {
         padding-top: 80px;
+        padding-left: 20px ;
         width: 450px;
         background-image: url(./svg/dumalo.svg);
         background-repeat: no-repeat;
         background-size: 500px;
         height: auto;
         background-position: right 0 top 150px;
+        border-left: 2px solid gray;
 
         .numbers {
             display: $display-flex;
@@ -386,6 +393,12 @@
                     padding: 10px;
                     border-radius: 8px;
                     color: #1D71B8;
+                    transition: .3s;
+                }
+
+                i:hover {
+                    background-color: #073a6e;
+                    color: #fff;
                 }
             }
 
@@ -419,6 +432,12 @@
                     padding: 10px;
                     border-radius: 8px;
                     color: #1D71B8;
+                    transition: .3s;
+                }
+
+                i:hover {
+                    color: #fff;
+                    background-color: #073a6e;
                 }
             }
 
@@ -479,6 +498,12 @@
                     padding: 10px;
                     border-radius: 8px;
                     color: #1D71B8;
+                    transition: .3s;
+                }
+
+                i:hover {
+                    background-color: #073a6e;
+                    color: #fff;
                 }
             }
 
@@ -519,7 +544,13 @@
                     font-size: 10px;
                     padding: 10px;
                     border-radius: 8px;
+                    transition: .3s;
                     color: #1D71B8;
+                }
+
+                i:hover {
+                    background-color: #073a6e;
+                    color: #fff;
                 }
             }
             
@@ -554,6 +585,10 @@
                     padding: 10px;
                     border-radius: 8px;
                     color: #1D71B8;
+                }
+                i:hover {
+                    background-color: #073a6e;
+                    color: #fff;
                 }
             }
 
@@ -596,7 +631,12 @@
                     font-size: 10px;
                     padding: 10px;
                     border-radius: 8px;
+                    transition: .3s;
                     color: #1D71B8;
+                }
+                i:hover {
+                    background-color: #073a6e;
+                    color: #fff;
                 }
             }
 
@@ -669,6 +709,11 @@
                     padding: 10px;
                     border-radius: 8px;
                     color: #1D71B8;
+                    transition: .3s;
+                }
+                i:hover {
+                    background-color: #073a6e;
+                    color: #fff;
                 }
             }
 
@@ -719,6 +764,9 @@
                 color: white;
                 padding: 10px 20px;
                 border-radius: 8px;
+            }
+            a:hover {
+                background-color: #073a6e;
             }
         }
     }

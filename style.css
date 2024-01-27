@@ -53,14 +53,6 @@ a {
   margin: 0 32px;
 }
 
-@media screen and (max-width: 400px) {
-  .header-ul .li-all .toogle {
-    display: none;
-  }
-  .header-ul > .li-all > .toogle {
-    display: block;
-  }
-}
 .nav .michel-texts {
   width: 100%;
   max-width: 860px;
@@ -240,10 +232,11 @@ a {
 }
 .michel-all .work-history .odoo .odoo-all .napa .napa-img {
   width: 100%;
-  max-width: 220px;
+  max-width: 231px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 .michel-all .work-history .odoo .odoo-all .napa .houry-all {
   width: 100%;
@@ -585,8 +578,8 @@ a {
 
 @media screen and (max-width: 1080px) {
   .header-ul .header-li a {
-    margin: 0px -10px;
-    border: 1px solid red;
+    font-size: 20px;
+    margin: 0px auto;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -627,6 +620,9 @@ a {
   }
 }
 @media screen and (max-width: 800px) {
+  .header-ul .li-all {
+    display: none;
+  }
   .header-ul h1 {
     text-align: center;
     margin: auto;
@@ -645,5 +641,23 @@ a {
   .michel-all .portfolio-all .boxs {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header-ul .li-all .toogle {
+    display: none;
+  }
+  .header-ul > .li-all > .toogle {
+    display: block;
+  }
+  .work-history .odoo .napa {
+    flex-wrap: wrap;
+  }
+  .work-history .odoo .napa .houry-all {
+    margin: auto;
+  }
+  .michel-all .michel-lorem .lorem-link-all {
+    flex-wrap: wrap;
+    gap: 15px;
   }
 }/*# sourceMappingURL=style.css.map */

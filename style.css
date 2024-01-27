@@ -34,6 +34,9 @@ a {
   justify-content: space-around;
   align-items: center;
 }
+.header-ul .li-all .toogle {
+  display: none;
+}
 .header-ul .li-all select {
   text-align: center;
   font-size: 15px;
@@ -50,6 +53,14 @@ a {
   margin: 0 32px;
 }
 
+@media screen and (max-width: 400px) {
+  .header-ul .li-all .toogle {
+    display: none;
+  }
+  .header-ul > .li-all > .toogle {
+    display: block;
+  }
+}
 .nav .michel-texts {
   width: 100%;
   max-width: 860px;
@@ -613,9 +624,6 @@ a {
   .header-ul h1 {
     text-align: center;
     margin: auto;
-  }
-  .header-ul .li-all {
-    display: none;
   }
   .michel2 {
     width: 100%;

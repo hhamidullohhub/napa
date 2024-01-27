@@ -43,6 +43,11 @@
             display: $display-flex;
             justify-content: $justify-space-around;
             align-items: $justify-center;
+
+            .toogle {
+                display: none;
+            }
+
             select {
                 text-align: center;
                 font-size: 15px;
@@ -61,6 +66,22 @@
                 font-size: 23px;
                 margin: 0 32px;
             }
+        }
+    }
+
+
+
+    @media screen and (max-width:400px) {
+        .header-ul{
+            .li-all {
+                .toogle {
+                    display: none;
+                }
+            }
+        }
+
+        .header-ul>.li-all >.toogle {
+            display: block;
         }
     }
 
@@ -773,10 +794,6 @@
             h1 {
                 text-align: center;
                 margin: auto;
-            }
-
-            .li-all {
-                display: none;
             }
         }
 

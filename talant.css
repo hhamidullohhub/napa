@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -24,5 +28,7 @@ a {
 }
 
 .title-links a {
+  font-size: 23px;
   margin: 0 32px;
+  font-weight: 500;
 }/*# sourceMappingURL=talant.css.map */

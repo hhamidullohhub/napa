@@ -4,11 +4,16 @@ $border-red: 1px solid red;
 $display-flex: flex;
 $justify-center: center;
 $between: space-between;
+$font-size-23: 23px;
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+}
+
+body {
+    font-family: sans-serif;
 }
 
 a {
@@ -31,6 +36,8 @@ a {
 
 .title-links {
     a {
+        font-size: $font-size-23;
         margin: 0 32px;
+        font-weight: 500;
     }
 }

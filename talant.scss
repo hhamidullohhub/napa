@@ -3,7 +3,7 @@ $container-max-width: 1410px;
 $border-red: 1px solid red;
 $display-flex: flex;
 $justify-center: center;
-$between: between;
+$between: space-between;
 * {
     margin: 0;
     padding: 0;
@@ -26,5 +26,11 @@ a {
 .automative-all {
     padding-top: 98px;
     display: $display-flex;
-    justify-content: space-between;
+    justify-content: $between;
+}
+
+.title-links {
+    a {
+        margin: 0 32px;
+    }
 }

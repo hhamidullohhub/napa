@@ -1,6 +1,9 @@
 $width: 100%;
 $container-max-width: 1410px;
 $border-red: 1px solid red;
+$display-flex: flex;
+$justify-center: center;
+$between: between;
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +17,14 @@ a {
 
 .container {
     width: 100%;
-    max-width: 1410px;
+    max-width: 1450px;
     border: $border-red;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.automative-all {
+    padding-top: 98px;
+    display: $display-flex;
+    justify-content: space-between;
 }

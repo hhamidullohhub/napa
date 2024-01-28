@@ -11,6 +11,14 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1410px;
+  max-width: 1450px;
   border: 1px solid red;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.automative-all {
+  padding-top: 98px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=talant.css.map */

@@ -22,8 +22,8 @@ a {
 }
 
 .container {
-    width: 100%;
-    max-width: 1450px;
+    // width: 100%;
+    width: 1450px;
     border: $border-red;
     margin: 0 auto;
     padding: 0 20px;
@@ -34,13 +34,18 @@ a {
     display: $display-flex;
     justify-content: $between;
     align-items: center;
+
+    .title-text {
+        h1 {
+            color: #1D71B8;
+        }
+    }
 }
 
 .title-links {
     width: 100%;
     max-width: 840px;
     text-align: center;
-    border: $border-red;
 
     a {
         width: 100%;
@@ -51,7 +56,7 @@ a {
     }
 
     .select {
-        margin: 0px 15px;   
+        margin: 0px 15px;
         border-radius: 8px;
         background: var(--Background-colour, #F5F5F7);
         box-shadow: 0px 0px 5px 0px rgb(122, 122, 227);
@@ -83,4 +88,57 @@ a {
         padding: 8px 20px;
         font-size: $font-size-23;
     }
+}
+
+.main {
+    padding-top: 120px;
+}
+
+.main-items {
+    // border: $border-red;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 930px 450px;
+    gap: 30px;
+}
+
+.section1 {
+    border: $border-red;
+    .boxs {
+        .person-item {
+            width: 100%;
+            border: 1px solid yellow;
+        }
+    }
+}
+
+.section-input {
+    display: flex;
+
+    input {
+        width: 100%;
+        height: 54px;
+        display: flex;
+        border-radius: 8px 0px 0px 8px;
+        color: var(--Gray, #808080);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        padding: 0px 20px;
+        line-height: normal;
+        border: 2px solid #1D71B8;
+        outline-color: #1D71B8;
+    }
+
+    i {
+        padding: 15px 33px;
+        background-color: #1D71B8;
+        color: white;
+        font-size: $font-size-23;
+        border-radius: 0px 8px 8px 0px;
+    }
+}
+
+.section2 {
+    border: 1px solid green;
 }

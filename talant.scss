@@ -5,6 +5,7 @@ $display-flex: flex;
 $justify-center: center;
 $between: space-between;
 $font-size-23: 23px;
+
 * {
     margin: 0;
     padding: 0;
@@ -32,28 +33,48 @@ a {
     padding-top: 98px;
     display: $display-flex;
     justify-content: $between;
+    align-items: center;
 }
 
 .title-links {
+    width: 100%;
+    max-width: 840px;
+    text-align: center;
+    border: $border-red;
+
     a {
+        width: 100%;
         font-size: $font-size-23;
-        margin: 0 32px;
+        margin: 0 16px;
         font-weight: 500;
         color: #1D71B8;
     }
 
+    .select {
+        margin: 0px 15px;   
+        border-radius: 8px;
+        background: var(--Background-colour, #F5F5F7);
+        box-shadow: 0px 0px 5px 0px rgb(122, 122, 227);
+        border: none;
+    }
+
     .select1 {
-        width: 210px;
+        width: 100%;
+        max-width: 210px;
         height: 44px;
         padding: 4px 20px;
         background-image: url(./svg/Rectangle\ 266.svg);
         background-repeat: no-repeat;
         background-size: 18%;
         background-position: left 10px top 2px;
-        border: $border-red;
         font-size: $font-size-23;
         text-align: center;
         font-weight: 500;
+
+        img {
+            position: absolute;
+            top: 30px;
+        }
     }
 
     .select2 {

@@ -43,7 +43,23 @@ a {
     }
 
     .select1 {
-        width: 500px;
-        padding: 4 20px;
+        width: 210px;
+        height: 44px;
+        padding: 4px 20px;
+        background-image: url(./svg/Rectangle\ 266.svg);
+        background-repeat: no-repeat;
+        background-size: 18%;
+        background-position: left 10px top 2px;
+        border: $border-red;
+        font-size: $font-size-23;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .select2 {
+        width: 90px;
+        height: 44px;
+        padding: 8px 20px;
+        font-size: $font-size-23;
     }
 }

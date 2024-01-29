@@ -14,7 +14,7 @@ a {
 }
 
 .container {
-  width: 1450px;
+  max-width: 1450px;
   border: 1px solid red;
   margin: 0 auto;
   padding: 0 20px;
@@ -80,22 +80,18 @@ a {
 .main-items {
   display: grid;
   justify-content: space-between;
-  grid-template-columns: 930px 450px;
   gap: 30px;
 }
 
 .section1 {
+  width: 100%;
+  max-width: 930px;
   border: 1px solid red;
 }
-.section1 .boxs .person-item {
-  width: 100%;
-  border: 1px solid yellow;
-}
-
-.section-input {
+.section1 .section-input {
   display: flex;
 }
-.section-input input {
+.section1 .section-input input {
   width: 100%;
   height: 54px;
   display: flex;
@@ -109,12 +105,63 @@ a {
   border: 2px solid #1D71B8;
   outline-color: #1D71B8;
 }
-.section-input i {
+.section1 .section-input i {
   padding: 15px 33px;
   background-color: #1D71B8;
   color: white;
   font-size: 23px;
   border-radius: 0px 8px 8px 0px;
+}
+.section1 .boxs .boxs-child {
+  padding: 20px;
+  border: 5px solid gold;
+}
+.section1 .boxs .boxs-child .person-texts {
+  padding-top: 15px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section1 .boxs .person-item {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+.section1 .boxs .person-item .info-numbers {
+  padding-left: 100px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .boxs .person-item .info-numbers .item-number {
+  border-left: 1px solid gray;
+  padding-left: 20px;
+}
+.section1 .boxs .person-item .info-numbers .item-number h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.section1 .boxs .person-item .info-numbers .item-number p {
+  color: var(--Gray, #808080);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.michel-info {
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section2 {

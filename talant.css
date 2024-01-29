@@ -78,7 +78,7 @@ a {
 }
 
 .main-items {
-  display: grid;
+  display: flex;
   justify-content: space-between;
   gap: 30px;
 }
@@ -89,6 +89,7 @@ a {
   border: 1px solid red;
 }
 .section1 .section-input {
+  padding-bottom: 20px;
   display: flex;
 }
 .section1 .section-input input {
@@ -113,11 +114,57 @@ a {
   border-radius: 0px 8px 8px 0px;
 }
 .section1 .boxs .boxs-child {
+  margin-top: 10px;
+  border-radius: 12px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
   padding: 20px;
-  border: 5px solid gold;
+}
+.section1 .boxs .boxs-child .item-site {
+  border-top: 1px solid gray;
+  padding: 15px 0;
+}
+.section1 .boxs .boxs-child .item-site .item-site-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .boxs .boxs-child .item-site .item-site-buttons .button-level p {
+  font-size: 18px;
+}
+.section1 .boxs .boxs-child .item-site .item-site-buttons .item-button-childs button {
+  margin: 0 5px;
+  padding: 6px 10px;
+  color: #1D71B8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 6px;
+  background: var(--White, #FFF);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+.section1 .boxs .boxs-child .item-site .item-site-day {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .boxs .boxs-child .item-site .item-site-day p {
+  font-size: 16px;
+}
+.section1 .boxs .boxs-child .item-site .item-site-day .location {
+  display: flex;
+}
+.section1 .boxs .boxs-child .item-site .item-site-day .location i {
+  color: #1D71B8;
+}
+.section1 .boxs .boxs-child .item-site .item-site-day .location p {
+  color: #808080;
 }
 .section1 .boxs .boxs-child .person-texts {
-  padding-top: 15px;
+  padding: 15px 0;
   color: #000;
   font-size: 18px;
   font-style: normal;
@@ -134,7 +181,6 @@ a {
 }
 .section1 .boxs .person-item .info-numbers {
   padding-left: 100px;
-  width: 100%;
   max-width: 500px;
   text-align: center;
   display: flex;
@@ -143,7 +189,7 @@ a {
 }
 .section1 .boxs .person-item .info-numbers .item-number {
   border-left: 1px solid gray;
-  padding-left: 20px;
+  padding: 0px 20px;
 }
 .section1 .boxs .person-item .info-numbers .item-number h3 {
   font-size: 20px;
@@ -165,5 +211,51 @@ a {
 }
 
 .section2 {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
   border: 1px solid green;
+}
+.section2 .filter .filter-title {
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section2 .filter .payment h3 {
+  color: var(--Black, #323232);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.section2 .payment-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.section2 .payment-inputs .payment-input-child {
+  width: 180px;
+  margin-top: 10px;
+  border: 1px solid green;
+}
+.section2 .payment-inputs .payment-input-child label {
+  color: var(--Black, #323232);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section2 .payment-inputs .payment-input-child input {
+  width: 180px;
+  height: 54px;
+  padding: 15px 20px;
+  border: 1px solid #CDCDCD;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+  background: var(--White, #FFF);
 }/*# sourceMappingURL=talant.css.map */

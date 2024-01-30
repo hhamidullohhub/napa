@@ -347,18 +347,24 @@ a {
   font-weight: 500;
   line-height: normal;
 }
-.section2 .region {
+.section2 .filter .region {
   margin-top: 20px;
-  border: 1px solid red;
 }
-.section2 .region .region-select {
+.section2 .filter .region h3 {
+  color: var(--Black, #323232);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.section2 .filter .region .region-select {
   margin-top: 10px;
   border-radius: 8px;
   padding: 15px 20px;
-  border: 1px solid green;
+  border: 1px solid #CDCDCD;
   display: flex;
 }
-.section2 .region .region-select select {
+.section2 .filter .region .region-select select {
   width: 50%;
   padding: 6px 10px;
   font-size: 18px;
@@ -367,9 +373,33 @@ a {
   line-height: normal;
   border-radius: 6px;
   color: #FFF;
+  border: 1px solid #CDCDCD;
+  outline-color: #CDCDCD;
   background-color: #1D71B8;
 }
-.section2 .region .region-select .select3 {
+.section2 .filter .region .region-select .select3 {
   width: 30%;
   margin-left: 10px;
+}
+.section2 .filter .completed {
+  width: 100%;
+  margin-top: 20px;
+}
+.section2 .filter .completed input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px 20px;
+  display: flex;
+  width: 390px;
+  padding: 15px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  color: var(--Gray, #808080);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  outline-color: #CDCDCD;
+  border: 1px solid #CDCDCD;
 }/*# sourceMappingURL=talant.css.map */

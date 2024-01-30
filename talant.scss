@@ -414,34 +414,67 @@ a {
                 line-height: normal;
             }
         }
-    }
 
-    .region {
-        margin-top: 20px;
-        border: 1px solid red;
+        .region {
+            margin-top: 20px;
 
-        .region-select {
-            margin-top: 10px;
-            border-radius: 8px;
-            padding: 15px 20px;
-            border: 1px solid green;
-            display: flex;
+            h3 {
+                color: var(--Black, #323232);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
 
-            select {
-                width: 50%;
-                padding: 6px 10px;
-                font-size: 18px;
+            .region-select {
+                margin-top: 10px;
+                border-radius: 8px;
+                padding: 15px 20px;
+                border: 1px solid #CDCDCD;
+                display: flex;
+
+                select {
+                    width: 50%;
+                    padding: 6px 10px;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    border-radius: 6px;
+                    color: #FFF;
+                    border: 1px solid #CDCDCD;
+                    outline-color: #CDCDCD;
+                    background-color: #1D71B8;
+                }
+
+                .select3 {
+                    width: 30%;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .completed {
+            width: 100%;
+            margin-top: 20px;
+
+            input {
+                width: 100%;
+                margin-top: 10px;
+                padding: 15px 20px;
+                display: flex;
+                width: 390px;
+                padding: 15px 20px;
+                align-items: center;
+                gap: 10px;
+                border-radius: 8px;
+                color: var(--Gray, #808080);
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 500;
                 line-height: normal;
-                border-radius: 6px;
-                color: #FFF;
-                background-color: #1D71B8;
-            }
-
-            .select3 {
-                width: 30%;
-                margin-left: 10px;
+                outline-color: #CDCDCD;
+                border: 1px solid #CDCDCD;
             }
         }
     }

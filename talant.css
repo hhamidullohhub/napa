@@ -226,10 +226,39 @@ a {
 }
 .section2 .filter .payment h3 {
   color: var(--Black, #323232);
+  margin-top: 20px;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.section2 .filter .jobs {
+  width: 100%;
+  margin-top: 20px;
+}
+.section2 .filter .jobs label {
+  color: var(--Black, #323232);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.section2 .filter .jobs input {
+  width: 100%;
+  padding: 15px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  outline-color: #CDCDCD;
+  background: var(--White, #FFF);
+  border: 1px solid #CDCDCD;
+  color: var(--Gray, #808080);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.section2 .filter .required .required-child input {
+  width: 100%;
 }
 .section2 .payment-inputs {
   display: flex;
@@ -238,7 +267,6 @@ a {
 .section2 .payment-inputs .payment-input-child {
   width: 180px;
   margin-top: 10px;
-  border: 1px solid green;
 }
 .section2 .payment-inputs .payment-input-child label {
   color: var(--Black, #323232);
@@ -251,11 +279,14 @@ a {
   width: 180px;
   height: 54px;
   padding: 15px 20px;
+  margin-top: 8px;
   border: 1px solid #CDCDCD;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   border-radius: 8px;
+  outline-color: #CDCDCD;
+  border: 1px solid #CDCDCD;
   background: var(--White, #FFF);
 }/*# sourceMappingURL=talant.css.map */

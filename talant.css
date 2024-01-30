@@ -15,7 +15,6 @@ a {
 
 .container {
   max-width: 1450px;
-  border: 1px solid red;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -86,7 +85,6 @@ a {
 .section1 {
   width: 100%;
   max-width: 930px;
-  border: 1px solid red;
 }
 .section1 .section-input {
   padding-bottom: 20px;
@@ -212,8 +210,11 @@ a {
 
 .section2 {
   max-width: 450px;
+  height: 940px;
   padding: 30px;
-  border: 1px solid green;
+  border: 1px solid #808080;
+  border-radius: 12px;
+  background: linear-gradient(#e66465, #9198e5);
 }
 .section2 .filter .filter-title {
   color: #000;
@@ -402,4 +403,41 @@ a {
   line-height: normal;
   outline-color: #CDCDCD;
   border: 1px solid #CDCDCD;
+}
+.section2 .filter .skill-text {
+  margin-top: 20px;
+}
+.section2 .filter .skill-input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #CDCDCD;
+}
+.section2 .filter .skill-input select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background-color: #1D71B8;
+  color: white;
+  outline-color: #CDCDCD;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.section2 .filter .apply {
+  margin-top: 20px;
+  text-align: center;
+}
+.section2 .filter .apply a {
+  color: black;
+  padding: 10px 20px;
+  color: #1D71B8;
+  border-radius: 8px;
+  border: 1px solid #CDCDCD;
+  transition: 0.3s;
+}
+.section2 .filter .apply a:hover {
+  color: white;
+  background-color: #1D71B8;
 }/*# sourceMappingURL=talant.css.map */

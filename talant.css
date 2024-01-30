@@ -257,6 +257,9 @@ a {
   font-weight: 500;
   line-height: normal;
 }
+.section2 .filter .required .required-child {
+  width: 100%;
+}
 .section2 .filter .required .required-child input {
   width: 100%;
 }

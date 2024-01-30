@@ -310,12 +310,41 @@ a {
         }
 
         .required {
-            // border: 1px solid red;
-            .required-child {
-                width: 100%;
-                // border: 1px solid red;
-                input {
+            margin-top: 20px;
+
+            h3 {
+                color: var(--Black, #323232);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            .required-inputs {
+                display: flex;
+
+                .required-child {
+                    margin-top: 10px;
                     width: 100%;
+
+                    label {
+                        color: var(--Black, #323232);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        border: 1px solid red;
+                    }
+
+                    input {
+                        width: 100%;
+                        padding: 15px 20px;
+                        color: var(--Black, #323232);
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
                 }
             }
         }

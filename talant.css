@@ -7,6 +7,9 @@
 
 body {
   font-family: sans-serif;
+  background-image: url(./svg/dumalo\ background\ 378\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-position: top 300px right -50px;
 }
 
 a {
@@ -83,8 +86,7 @@ a {
 }
 
 .section1 {
-  width: 100%;
-  max-width: 930px;
+  width: 70%;
 }
 .section1 .section-input {
   padding-bottom: 20px;
@@ -175,10 +177,10 @@ a {
   justify-content: start;
   align-items: center;
   padding-bottom: 15px;
+  gap: 30px;
   border-bottom: 1px solid gray;
 }
 .section1 .boxs .person-item .info-numbers {
-  padding-left: 100px;
   max-width: 500px;
   text-align: center;
   display: flex;
@@ -209,12 +211,12 @@ a {
 }
 
 .section2 {
-  max-width: 450px;
-  height: 940px;
+  width: 30%;
+  height: 950px;
   padding: 30px;
   border: 1px solid #808080;
   border-radius: 12px;
-  background: linear-gradient(#e66465, #9198e5);
+  background: var(--modal, linear-gradient(102deg, rgba(255, 255, 255, 0.2) 0%, rgba(29, 113, 184, 0.2) 100%), #FFF);
 }
 .section2 .filter .filter-title {
   color: #000;
@@ -230,7 +232,7 @@ a {
   gap: 20px;
 }
 .section2 .filter .payment-inputs .payment-input-child {
-  width: 180px;
+  width: 100%;
   margin-top: 10px;
 }
 .section2 .filter .payment-inputs .payment-input-child label {
@@ -241,7 +243,7 @@ a {
   line-height: normal;
 }
 .section2 .filter .payment-inputs .payment-input-child input {
-  width: 180px;
+  width: 100%;
   height: 54px;
   padding: 15px 20px;
   margin-top: 8px;
@@ -304,7 +306,7 @@ a {
   gap: 20px;
 }
 .section2 .filter .required .required-inputs .required-child {
-  max-width: 180px;
+  width: 100%;
   margin-top: 10px;
 }
 .section2 .filter .required .required-inputs .required-child label {
@@ -316,16 +318,17 @@ a {
 }
 .section2 .filter .required .required-inputs .required-child input {
   width: 100%;
-  max-width: 180px;
+  height: 54px;
   padding: 15px 20px;
   margin-top: 8px;
-  color: var(--Black, #323232);
+  border: 1px solid #CDCDCD;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   border-radius: 8px;
-  border: 1px solid var(--Gray-2, #CDCDCD);
+  outline-color: #CDCDCD;
+  border: 1px solid #CDCDCD;
   background: var(--White, #FFF);
 }
 .section2 .filter .verified {
@@ -391,7 +394,6 @@ a {
   margin-top: 10px;
   padding: 15px 20px;
   display: flex;
-  width: 390px;
   padding: 15px 20px;
   align-items: center;
   gap: 10px;
@@ -409,12 +411,15 @@ a {
 }
 .section2 .filter .skill-input {
   width: 100%;
+  display: flex;
   margin-top: 10px;
   padding: 15px 20px;
   border-radius: 8px;
+  gap: 10px;
   border: 1px solid #CDCDCD;
 }
 .section2 .filter .skill-input select {
+  width: 100%;
   padding: 6px 10px;
   border-radius: 6px;
   background-color: #1D71B8;
@@ -426,7 +431,7 @@ a {
   line-height: normal;
 }
 .section2 .filter .apply {
-  margin-top: 20px;
+  padding-top: 20px;
   text-align: center;
 }
 .section2 .filter .apply a {
@@ -440,4 +445,45 @@ a {
 .section2 .filter .apply a:hover {
   color: white;
   background-color: #1D71B8;
+}
+
+@media screen and (max-width: 1050px) {
+  .section1,
+  .section2 {
+    width: 100%;
+  }
+  .title-links {
+    display: none;
+  }
+  .automative-all {
+    display: block;
+  }
+  .automative-all .title-text h1 {
+    text-align: center;
+  }
+  .main-items {
+    flex-wrap: wrap;
+  }
+  .required {
+    margin-top: 20px;
+  }
+  .required h3 {
+    color: var(--Black, #323232);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .required .required-inputs {
+    width: 100%;
+  }
+  .required .required-inputs .required-child input {
+    width: 100%;
+    max-width: none;
+  }
+}
+@media screen and (max-width: 715px) {
+  .boxs .person-item {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=talant.css.map */

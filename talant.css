@@ -211,7 +211,6 @@ a {
 }
 
 .section2 {
-  width: 100%;
   max-width: 450px;
   padding: 30px;
   border: 1px solid green;
@@ -223,6 +222,37 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.section2 .filter .payment-inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section2 .filter .payment-inputs .payment-input-child {
+  width: 180px;
+  margin-top: 10px;
+}
+.section2 .filter .payment-inputs .payment-input-child label {
+  color: var(--Black, #323232);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section2 .filter .payment-inputs .payment-input-child input {
+  width: 180px;
+  height: 54px;
+  padding: 15px 20px;
+  margin-top: 8px;
+  border: 1px solid #CDCDCD;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+  outline-color: #CDCDCD;
+  border: 1px solid #CDCDCD;
+  background: var(--White, #FFF);
 }
 .section2 .filter .payment h3 {
   color: var(--Black, #323232);
@@ -269,10 +299,12 @@ a {
 }
 .section2 .filter .required .required-inputs {
   display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 .section2 .filter .required .required-inputs .required-child {
+  max-width: 180px;
   margin-top: 10px;
-  width: 100%;
 }
 .section2 .filter .required .required-inputs .required-child label {
   color: var(--Black, #323232);
@@ -280,44 +312,22 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border: 1px solid red;
 }
 .section2 .filter .required .required-inputs .required-child input {
   width: 100%;
-  padding: 15px 20px;
-  color: var(--Black, #323232);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.section2 .payment-inputs {
-  display: flex;
-  justify-content: space-between;
-}
-.section2 .payment-inputs .payment-input-child {
-  width: 180px;
-  margin-top: 10px;
-}
-.section2 .payment-inputs .payment-input-child label {
-  color: var(--Black, #323232);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.section2 .payment-inputs .payment-input-child input {
-  width: 180px;
-  height: 54px;
+  max-width: 180px;
   padding: 15px 20px;
   margin-top: 8px;
-  border: 1px solid #CDCDCD;
+  color: var(--Black, #323232);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   border-radius: 8px;
-  outline-color: #CDCDCD;
-  border: 1px solid #CDCDCD;
+  border: 1px solid var(--Gray-2, #CDCDCD);
   background: var(--White, #FFF);
+}
+.section2 .filter .verified {
+  text-align: center;
+  padding: 20px 0;
 }/*# sourceMappingURL=talant.css.map */

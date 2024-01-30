@@ -274,11 +274,11 @@ a {
             display: flex;
             justify-content: space-between;
             gap: 20px;
-    
+
             .payment-input-child {
                 width: 180px;
                 margin-top: 10px;
-    
+
                 label {
                     color: var(--Black, #323232);
                     font-size: 18px;
@@ -286,7 +286,7 @@ a {
                     font-weight: 400;
                     line-height: normal
                 }
-    
+
                 input {
                     width: 180px;
                     height: 54px;
@@ -301,7 +301,7 @@ a {
                     outline-color: #CDCDCD;
                     border: 1px solid #CDCDCD;
                     background: var(--White, #FFF);
-    
+
                 }
             }
         }
@@ -393,8 +393,56 @@ a {
         }
 
         .verified {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             text-align: center;
             padding: 20px 0;
+
+            input {
+                width: 24px;
+                height: 24px;
+            }
+
+            label {
+                margin-left: 5px;
+                color: var(--Black, #323232);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+
+    .region {
+        margin-top: 20px;
+        border: 1px solid red;
+
+        .region-select {
+            margin-top: 10px;
+            border-radius: 8px;
+            padding: 15px 20px;
+            border: 1px solid green;
+            display: flex;
+
+            select {
+                width: 50%;
+                padding: 6px 10px;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                border-radius: 6px;
+                color: #FFF;
+                background-color: #1D71B8;
+            }
+
+            .select3 {
+                width: 30%;
+                margin-left: 10px;
+            }
         }
     }
 }

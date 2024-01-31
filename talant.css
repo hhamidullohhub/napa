@@ -5,11 +5,16 @@
   list-style: none;
 }
 
+.header {
+  border: 1px solid red;
+}
+
 body {
   font-family: sans-serif;
   background-image: url(./svg/dumalo\ background\ 378\ \(1\).svg);
+  background-image: url(./svg/header\ dumalo\ 16\ \(1\).svg);
   background-repeat: no-repeat;
-  background-position: top 300px right -50px;
+  background-position: top 300px right -50px top 0 left 0;
 }
 
 a {

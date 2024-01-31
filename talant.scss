@@ -38,11 +38,11 @@ a {
     display: $display-flex;
     justify-content: $between;
     align-items: center;
+    gap: 20px;
 
     .title-text {
-        h1 {
-            color: #1D71B8;
-        }
+        width: 100%;
+        max-width: 360px;
     }
 }
 

@@ -46,11 +46,15 @@ a {
   box-shadow: 0px 0px 5px 0px #1D71B8;
   border: none;
 }
+.header-ul .header-li .jobs-link {
+  border-bottom: 3px solid #1D71B8;
+}
 .header-ul .header-li a {
   text-transform: capitalize;
   color: #1D71B8;
   font-size: 23px;
   margin: 0 32px;
+  border-bottom: 3px solid rgb(193, 193, 193);
 }
 
 .nav .michel-texts {

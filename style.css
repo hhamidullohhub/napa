@@ -7,9 +7,9 @@
 }
 
 body {
-  background-image: url(./svg/header\ dumalo\ 16\ \(1\).svg), url(./svg/dumaloo.svg);
+  background-image: url(./svg/header\ dumalo\ 16\ \(1\).svg), url(./svg/dumalo\ background\ 378\ \(1\).svg);
   background-repeat: no-repeat;
-  background-position: top 0 left 0, right 0 top 500px;
+  background-position: top 0 left 0, right 0 top 350px;
 }
 
 a {

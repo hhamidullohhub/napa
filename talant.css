@@ -493,4 +493,13 @@ a {
   .boxs .person-item {
     flex-wrap: wrap;
   }
+}
+@media screen and (max-width: 440px) {
+  .info-numbers {
+    flex-wrap: wrap;
+  }
+  .info-numbers .item-number {
+    width: 100%;
+    text-align: center;
+  }
 }/*# sourceMappingURL=talant.css.map */

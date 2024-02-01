@@ -591,10 +591,10 @@ a {
 
 @media screen and (max-width: 440px) {
     .info-numbers {
+        flex-wrap: wrap;
         .item-number {
-            h3 {
-               
-            }
+            width: 100%;
+            text-align: center;
         }
     }
 }

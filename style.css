@@ -6,6 +6,12 @@
   font-family: sans-serif;
 }
 
+body {
+  background-image: url(./svg/header\ dumalo\ 16\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+}
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -280,9 +286,6 @@ a {
   padding-top: 80px;
   padding-left: 20px;
   width: 450px;
-  background-image: url(./svg/dumalo.svg);
-  background-repeat: no-repeat;
-  background-size: 500px;
   height: auto;
   background-position: right 0 top 150px;
   border-left: 2px solid gray;

@@ -31,7 +31,6 @@ a {
     padding: 0 20px;
 }
 
-
 .automative-all {
     padding-top: 98px;
     display: $display-flex;
@@ -42,6 +41,7 @@ a {
     .title-text {
         width: 100%;
         max-width: 360px;
+        border: 1px solid red;
     }
 }
 

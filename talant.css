@@ -32,6 +32,7 @@ a {
 .automative-all .title-text {
   width: 100%;
   max-width: 360px;
+  border: 1px solid red;
 }
 
 .title-links {

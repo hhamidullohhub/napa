@@ -16,9 +16,9 @@ $font-size-23: 23px;
 
 body {
     font-family: sans-serif;
-    background-image: url(./svg/dumalo\ background\ 378\ \(1\).svg),url(./svg/header\ dumalo\ 16\ \(1\).svg);
+    background-image: url(./svg/dumalo\ background\ 378\ \(1\).svg), url(./svg/header\ dumalo\ 16\ \(1\).svg);
     background-repeat: no-repeat;
-    background-position: top 300px right -50px,top 0 left 0;
+    background-position: top 300px right -50px, top 0 left 0;
 }
 
 a {
@@ -48,6 +48,27 @@ a {
     width: 100%;
     max-width: 840px;
     text-align: center;
+    position: relative;
+
+    .under-line {
+        position: absolute;
+        border: 5px solid aliceblue;
+        width: 100%;
+        max-width: 435px;
+        border-radius: 15px;
+        bottom: -10px;
+        left: 20px;
+    }
+
+    .under-line2 {
+        position: absolute;
+        border: 5px solid #1D71B8;
+        width: 100%;
+        max-width: 57px;
+        border-radius: 15px;
+        bottom: -10px;
+        left: 115px;
+    }
 
     .talant-link {
         border-bottom: 3px solid #1D71B8;
@@ -593,6 +614,7 @@ a {
 @media screen and (max-width: 440px) {
     .info-numbers {
         flex-wrap: wrap;
+
         .item-number {
             width: 100%;
             text-align: center;

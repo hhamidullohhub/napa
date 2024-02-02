@@ -38,6 +38,25 @@ a {
   width: 100%;
   max-width: 840px;
   text-align: center;
+  position: relative;
+}
+.title-links .under-line {
+  position: absolute;
+  border: 5px solid aliceblue;
+  width: 100%;
+  max-width: 435px;
+  border-radius: 15px;
+  bottom: -10px;
+  left: 20px;
+}
+.title-links .under-line2 {
+  position: absolute;
+  border: 5px solid #1D71B8;
+  width: 100%;
+  max-width: 57px;
+  border-radius: 15px;
+  bottom: -10px;
+  left: 115px;
 }
 .title-links .talant-link {
   border-bottom: 3px solid #1D71B8;

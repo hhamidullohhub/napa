@@ -486,6 +486,7 @@ a {
   }
   .title-links i {
     position: absolute;
+    top: -30px;
     font-size: 40px;
     display: block;
     right: 0;
@@ -494,6 +495,9 @@ a {
     color: black;
     padding: 10px 15px;
     border-radius: 10px;
+  }
+  .title-links i:active .title-links a, .title-links i:active select {
+    display: block;
   }
 }
 @media screen and (max-width: 1050px) {

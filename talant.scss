@@ -49,6 +49,9 @@ a {
     max-width: 840px;
     text-align: center;
     position: relative;
+    i {
+        display: none;
+    }
 
     .under-line {
         position: absolute;
@@ -548,6 +551,33 @@ a {
     }
 }
 
+@media screen and (max-width: 1253px) {
+    .under-line,.under-line2 {
+        display: none;
+    }
+    .automative-all {
+        flex: none;
+    }
+    .title-links {
+        position: relative;
+        a,select {
+            display: none;
+        }
+        i {
+            position: absolute;
+            font-size: 40px;
+            display: block;
+            right: 0;
+            // left: 700px;
+            border: 1px solid gray;
+            background-color: #0f0f0f0f;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+    }
+}
+
 @media screen and (max-width: 1050px) {
 
     .section1,
@@ -556,7 +586,7 @@ a {
     }
 
     .title-links {
-        display: none;
+        // display: none;
     }
 
     .automative-all {

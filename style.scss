@@ -251,6 +251,7 @@ a {
 
         .boxs {
             width: 100%;
+            border: 1px solid red;
             max-width: 860px;
             display: grid;
             grid-template-columns: repeat(2, 1fr);

@@ -53,6 +53,7 @@ a {
     max-width: 840px;
     text-align: center;
     position: relative;
+
     i {
         display: none;
     }
@@ -556,22 +557,35 @@ a {
 }
 
 @media screen and (max-width: 1253px) {
-    .under-line,.under-line2 {
+
+    .under-line,
+    .under-line2 {
         display: none;
     }
+
     .automative-all {
         flex: none;
 
-        .dropdown {
-            position: relative;
-            display: block;
+        .dropdown-father {
+            position: absolute;
+            border: 1px solid red;
+            .dropdown {
+                position: relative;
+                right: 0;
+                display: block;
+                // border: 1px solid red;
+            }
         }
     }
+
     .title-links {
         position: relative;
-        a,select {
+
+        a,
+        select {
             display: none;
         }
+
         i {
             position: absolute;
             top: -30px;
@@ -584,8 +598,11 @@ a {
             padding: 10px 15px;
             border-radius: 10px;
         }
+
         i:active {
-            .title-links a,select {
+
+            .title-links a,
+            select {
                 display: block;
             }
         }
@@ -598,6 +615,7 @@ a {
     .section2 {
         width: 100%;
     }
+
     .automative-all {
         display: block;
 

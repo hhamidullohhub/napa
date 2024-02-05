@@ -475,20 +475,27 @@ a {
 }
 
 @media screen and (max-width: 1253px) {
-  .under-line, .under-line2 {
+  .under-line,
+  .under-line2 {
     display: none;
   }
   .automative-all {
     flex: none;
   }
-  .automative-all .dropdown {
+  .automative-all .dropdown-father {
+    position: absolute;
+    border: 1px solid red;
+  }
+  .automative-all .dropdown-father .dropdown {
     position: relative;
+    right: 0;
     display: block;
   }
   .title-links {
     position: relative;
   }
-  .title-links a, .title-links select {
+  .title-links a,
+  .title-links select {
     display: none;
   }
   .title-links i {
@@ -503,7 +510,8 @@ a {
     padding: 10px 15px;
     border-radius: 10px;
   }
-  .title-links i:active .title-links a, .title-links i:active select {
+  .title-links i:active .title-links a,
+  .title-links i:active select {
     display: block;
   }
 }

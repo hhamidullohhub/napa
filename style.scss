@@ -51,6 +51,10 @@ a {
         align-items: $justify-center;
         position: relative;
 
+        i {
+            display: none;
+        }
+
         .under-line {
             position: absolute;
             border: 5px solid aliceblue;
@@ -802,6 +806,31 @@ a {
     }
 }
 
+@media screen and (max-width: 1253px) {
+    .header-ul {
+        .li-all {
+            position: relative;
+            i {
+                position: absolute;
+                right: 0;
+                display: block;
+                font-size: 40px;
+                padding: 10px 15px;
+                border-radius: 10px;
+                border: 1px solid gray;
+                background-color: #0f0f0f0f;
+            }
+
+            .header-li,
+            select,
+            .under-line,
+            .under-line2 {
+                display: none;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1080px) {
     .header-ul {
         .under-line {
@@ -885,9 +914,9 @@ a {
 
 @media screen and (max-width: 800px) {
     .header-ul {
-        .li-all {
-            display: none;
-        }
+        // .li-all {
+        //     display: none;
+        // }
 
         h1 {
             text-align: center;
@@ -927,10 +956,6 @@ a {
                 display: none;
             }
         }
-    }
-
-    .header-ul>.li-all>.toogle {
-        display: block;
     }
 
     .work-history {

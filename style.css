@@ -41,6 +41,9 @@ a {
   align-items: center;
   position: relative;
 }
+.header-ul .li-all i {
+  display: none;
+}
 .header-ul .li-all .under-line {
   position: absolute;
   border: 5px solid aliceblue;
@@ -659,6 +662,27 @@ a {
   background-color: #073a6e;
 }
 
+@media screen and (max-width: 1253px) {
+  .header-ul .li-all {
+    position: relative;
+  }
+  .header-ul .li-all i {
+    position: absolute;
+    right: 0;
+    display: block;
+    font-size: 40px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgba(15, 15, 15, 0.0588235294);
+  }
+  .header-ul .li-all .header-li,
+  .header-ul .li-all select,
+  .header-ul .li-all .under-line,
+  .header-ul .li-all .under-line2 {
+    display: none;
+  }
+}
 @media screen and (max-width: 1080px) {
   .header-ul .under-line {
     position: absolute;
@@ -721,9 +745,6 @@ a {
   }
 }
 @media screen and (max-width: 800px) {
-  .header-ul .li-all {
-    display: none;
-  }
   .header-ul h1 {
     text-align: center;
     margin: auto;
@@ -748,9 +769,6 @@ a {
 @media screen and (max-width: 400px) {
   .header-ul .li-all .toogle {
     display: none;
-  }
-  .header-ul > .li-all > .toogle {
-    display: block;
   }
   .work-history .odoo .napa {
     flex-wrap: wrap;

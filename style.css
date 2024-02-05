@@ -29,6 +29,9 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.header-ul .dropdown {
+  display: none;
+}
 .header-ul h1 {
   color: #1D71B8;
   font-size: 45px;
@@ -661,18 +664,16 @@ a {
 }
 
 @media screen and (max-width: 1253px) {
-  .header-ul .li-all {
+  .header-ul {
     position: relative;
   }
-  .header-ul .li-all i {
-    position: absolute;
+  .header-ul .dropdown {
     right: 0;
+    position: absolute;
     display: block;
-    font-size: 40px;
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: 1px solid gray;
-    background-color: rgba(15, 15, 15, 0.0588235294);
+  }
+  .header-ul .li-all {
+    position: relative;
   }
   .header-ul .li-all .header-li,
   .header-ul .li-all select,

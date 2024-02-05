@@ -29,6 +29,9 @@ a {
   align-items: center;
   gap: 20px;
 }
+.automative-all .dropdown {
+  display: none;
+}
 .automative-all .title-text {
   width: 100%;
   max-width: 360px;
@@ -477,6 +480,10 @@ a {
   }
   .automative-all {
     flex: none;
+  }
+  .automative-all .dropdown {
+    position: relative;
+    display: block;
   }
   .title-links {
     position: relative;

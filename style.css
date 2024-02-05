@@ -34,7 +34,6 @@ a {
   font-size: 45px;
 }
 .header-ul .li-all {
-  width: 100%;
   max-width: 800px;
   display: flex;
   justify-content: space-around;

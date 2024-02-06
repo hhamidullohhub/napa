@@ -32,9 +32,25 @@ a {
 .automative-all .dropdown {
   display: none;
 }
+.automative-all .dropdown .dropdown-style {
+  width: 60px !important;
+}
+.automative-all .dropdown .dropdown-style i {
+  font-size: 35px;
+}
+.automative-all .dropdown2 {
+  display: none !important;
+}
 .automative-all .title-text {
   width: 100%;
   max-width: 360px;
+}
+.automative-all .title-text .icon-napa {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
 
 .title-links {
@@ -475,52 +491,37 @@ a {
 }
 
 @media screen and (max-width: 1253px) {
+  .automative-all {
+    position: relative;
+  }
+  .automative-all .dropdown {
+    right: 0;
+    position: absolute;
+    display: block;
+  }
   .under-line,
   .under-line2 {
     display: none;
   }
-  .automative-all {
-    flex: none;
-  }
-  .automative-all .dropdown-father {
-    position: absolute;
-  }
-  .automative-all .dropdown-father .dropdown {
-    position: relative;
-    right: 0;
-    display: block;
-  }
-  .title-links {
-    position: relative;
-  }
-  .title-links a,
   .title-links select {
     display: none;
   }
-  .title-links i {
-    position: absolute;
-    top: -30px;
-    font-size: 40px;
-    display: block;
-    right: 0;
-    border: 1px solid gray;
-    background-color: rgba(15, 15, 15, 0.0588235294);
-    color: black;
-    padding: 10px 15px;
-    border-radius: 10px;
-  }
-  .title-links i:active .title-links a,
-  .title-links i:active select {
-    display: block;
-  }
 }
 @media screen and (max-width: 1050px) {
+  .menu-show a {
+    padding-left: 20px;
+    display: block;
+    color: #1D71B8;
+  }
   .section1,
   .section2 {
     width: 100%;
   }
-  .automative-all {
-    display: block;
+  .automative-all .dropdown2 {
+    display: block !important;
+  }
+  .automative-all .title-links {
+    display: none;
   }
   .automative-all .title-text h1 {
     text-align: center;

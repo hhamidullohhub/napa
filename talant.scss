@@ -40,11 +40,29 @@ a {
 
     .dropdown {
         display: none;
+        .dropdown-style {
+            width: 60px !important;
+            i {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .dropdown2 {
+        display: none !important;
     }
 
     .title-text {
         width: 100%;
         max-width: 360px;
+
+        .icon-napa {
+            width: 100%;
+            max-width: 360px;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+        }
     }
 }
 
@@ -558,56 +576,37 @@ a {
 
 @media screen and (max-width: 1253px) {
 
+    .automative-all {
+        // flex-wrap: wrap;
+        position: relative;
+        .dropdown {
+            right: 0;
+            position: absolute;
+            display: block;
+        }
+    }
+
     .under-line,
     .under-line2 {
         display: none;
     }
 
-    .automative-all {
-        flex: none;
-
-        .dropdown-father {
-            position: absolute;
-            .dropdown {
-                position: relative;
-                right: 0;
-                display: block;
-            }
-        }
-    }
-
     .title-links {
-        position: relative;
 
-        a,
-        select {
+        select {    
             display: none;
-        }
-
-        i {
-            position: absolute;
-            top: -30px;
-            font-size: 40px;
-            display: block;
-            right: 0;
-            border: 1px solid gray;
-            background-color: #0f0f0f0f;
-            color: black;
-            padding: 10px 15px;
-            border-radius: 10px;
-        }
-
-        i:active {
-
-            .title-links a,
-            select {
-                display: block;
-            }
         }
     }
 }
 
 @media screen and (max-width: 1050px) {
+    .menu-show{
+        a{
+            padding-left: 20px;
+            display: block;
+            color: #1D71B8;
+     }   
+    }
 
     .section1,
     .section2 {
@@ -615,7 +614,15 @@ a {
     }
 
     .automative-all {
-        display: block;
+        // display: block;
+
+        .dropdown2 {
+            display: block !important;
+        }
+
+        .title-links {
+            display: none;
+        }
 
         .title-text {
             h1 {

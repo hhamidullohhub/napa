@@ -39,19 +39,17 @@ a {
     justify-content: $justify-space-between;
 
     .icon-napa {
-        // width: 100%;
+        width: 100%;
         max-width: 360px;
         display: flex;
         align-items: end;
         justify-content: space-between;
-        border: 1px solid red;
     }
 
     .dropdown {
         display: none;
         .dropdown-style {
             width: 60px !important;
-            background-color: whi   ;
             i {
                 font-size: 35px;
             }
@@ -76,7 +74,7 @@ a {
 
         .under-line {
             position: absolute;
-            border: 5px solid aliceblue;
+            border: 4px solid aliceblue;
             width: 100%;
             max-width: 530px;
             border-radius: 15px;
@@ -86,7 +84,7 @@ a {
 
         .under-line2 {
             position: absolute;
-            border: 5px solid #1D71B8;
+            border: 4px solid #1D71B8;
             width: 100%;
             max-width: 57px;
             border-radius: 15px;
@@ -296,7 +294,6 @@ a {
                     img {
                         width: 100%;
                         border-radius: 12px 12px 0px 0px;
-                        background-color: red;
                     }
 
                     h3 {

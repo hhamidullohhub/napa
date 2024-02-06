@@ -34,6 +34,7 @@ a {
 }
 .header-ul .dropdown .dropdown-style {
   width: 60px !important;
+  background-color: whi;
 }
 .header-ul .dropdown .dropdown-style i {
   font-size: 35px;
@@ -280,11 +281,17 @@ a {
 }
 .michel-all .work-history .odoo .odoo-all .napa .napa-img {
   width: 100%;
-  max-width: 231px;
+  max-width: 291px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+}
+.michel-all .work-history .odoo .odoo-all .napa .napa-img .verified {
+  max-width: 90px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
 }
 .michel-all .work-history .odoo .odoo-all .napa .houry-all {
   width: 100%;
@@ -303,8 +310,10 @@ a {
   color: rgba(128, 128, 128, 0.5019607843);
 }
 .michel-all .work-history .odoo .odoo-see {
+  font-size: 23px;
   padding: 50px 0;
   text-align: center;
+  color: #1D71B8;
   margin: auto;
 }
 

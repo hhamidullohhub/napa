@@ -42,6 +42,7 @@ a {
         display: none;
         .dropdown-style {
             width: 60px !important;
+            background-color: whi   ;
             i {
                 font-size: 35px;
             }
@@ -348,11 +349,18 @@ a {
 
                     .napa-img {
                         width: 100%;
-                        max-width: 231px;
+                        max-width: 291px;
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
                         gap: 20px;
+
+                        .verified {
+                            max-width: 90px;
+                            display: flex;
+                            align-items: start;
+                            justify-content: space-between;
+                        }
                     }
 
                     .houry-all {
@@ -378,8 +386,10 @@ a {
             }
 
             .odoo-see {
+                font-size: 23px;
                 padding: 50px 0;
                 text-align: center;
+                color: #1D71B8;
                 margin: auto;
             }
         }

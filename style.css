@@ -236,9 +236,12 @@ a {
 }
 .michel-all .portfolio-all .boxs .boxs-child-father .boxs-child {
   background-color: #fff;
+  border-radius: 12px;
 }
 .michel-all .portfolio-all .boxs .boxs-child-father .boxs-child img {
   width: 100%;
+  border-radius: 12px 12px 0px 0px;
+  background-color: red;
 }
 .michel-all .portfolio-all .boxs .boxs-child-father .boxs-child h3 {
   font-size: 20px;

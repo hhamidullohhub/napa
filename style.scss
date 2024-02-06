@@ -291,9 +291,12 @@ a {
 
                 .boxs-child {
                     background-color: #fff;
+                    border-radius: 12px;
 
                     img {
                         width: 100%;
+                        border-radius: 12px 12px 0px 0px;
+                        background-color: red;
                     }
 
                     h3 {

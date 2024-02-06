@@ -40,6 +40,12 @@ a {
 
     .dropdown {
         display: none;
+        .dropdown-style {
+            width: 60px !important;
+            i {
+                font-size: 35px;
+            }
+        }
     }
 
     h1 {

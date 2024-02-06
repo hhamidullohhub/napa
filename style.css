@@ -32,6 +32,12 @@ a {
 .header-ul .dropdown {
   display: none;
 }
+.header-ul .dropdown .dropdown-style {
+  width: 60px !important;
+}
+.header-ul .dropdown .dropdown-style i {
+  font-size: 35px;
+}
 .header-ul h1 {
   color: #1D71B8;
   font-size: 45px;

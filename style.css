@@ -273,6 +273,16 @@ a {
 .michel-all .work-history .odoo .odoo-all .odoo-child p {
   padding: 10px 0px;
 }
+.michel-all .work-history .odoo .odoo-all .odoo-child .odoo-star {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.michel-all .work-history .odoo .odoo-all .odoo-child .odoo-star .odoo-icon-august {
+  font-size: 16px;
+  color: #808080;
+}
 .michel-all .work-history .odoo .odoo-all .napa {
   width: 100%;
   max-width: 860px;

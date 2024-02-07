@@ -38,10 +38,16 @@ a {
     align-items: center;
     gap: 20px;
 
+    .dropdown-top {
+        display: none;
+    }
+
     .dropdown {
         display: none;
+
         .dropdown-style {
             width: 60px !important;
+
             i {
                 font-size: 35px;
             }
@@ -577,8 +583,16 @@ a {
 @media screen and (max-width: 1253px) {
 
     .automative-all {
-        // flex-wrap: wrap;
-        position: relative;
+        position: relative !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .dropdown-top {
+            position: absolute;
+            right: 0;
+            display: block;
+        }
+
         .dropdown {
             right: 0;
             position: absolute;
@@ -593,19 +607,21 @@ a {
 
     .title-links {
 
-        select {    
+        .under-line,
+        .under-line2,
+        a {
             display: none;
         }
     }
 }
 
 @media screen and (max-width: 1050px) {
-    .menu-show{
-        a{
+    .menu-show {
+        a {
             padding-left: 20px;
             display: block;
             color: #1D71B8;
-     }   
+        }
     }
 
     .section1,

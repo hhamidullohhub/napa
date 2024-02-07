@@ -38,7 +38,8 @@ a {
     align-items: center;
     gap: 20px;
 
-    .dropdown-top1,.dropdown-top2 {
+    .dropdown-top1,
+    .dropdown-top2 {
         display: none;
     }
 
@@ -587,6 +588,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         .dropdown-top1 {
             padding: 5px 0px 0px 0px;
             width: 50px;
@@ -594,6 +596,7 @@ a {
             position: absolute;
             right: 0;
             display: block;
+
             i {
                 font-size: 30px;
             }
@@ -628,14 +631,30 @@ a {
         }
 
         .dropdown-top2 {
-            display: block;
+            width: 60px;
+            height: 60px;
+            position: absolute;
             right: 0;
+            display: block;
+
+            i {
+                font-size: 25px;
+            }
 
             select {
                 display: block;
             }
         }
+
+        .offcanvas-body{
+            a {
+                font-size: 20px;
+                margin: 0px 10px;
+                color: #1D71B8;
+            }
+        }
     }
+
     .menu-show {
         a {
             padding-left: 20px;
@@ -650,8 +669,6 @@ a {
     }
 
     .automative-all {
-
-
         .title-links {
             select {
                 display: none;

@@ -629,6 +629,11 @@ a {
 
         .dropdown-top2 {
             display: block;
+            right: 0;
+
+            select {
+                display: block;
+            }
         }
     }
     .menu-show {
@@ -649,7 +654,9 @@ a {
 
 
         .title-links {
-            display: none;
+            select {
+                display: none;
+            }
         }
 
         .title-text {

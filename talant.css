@@ -528,6 +528,12 @@ a {
   }
 }
 @media screen and (max-width: 1050px) {
+  .automative-all .title-links select {
+    display: none;
+  }
+  .automative-all .title-text h1 {
+    text-align: center;
+  }
   .automative-all .dropdown-top1 {
     display: none;
   }
@@ -541,7 +547,7 @@ a {
   .automative-all .dropdown-top2 i {
     font-size: 25px;
   }
-  .automative-all .dropdown-top2 select {
+  .automative-all .dropdown-top2 .offcanvas-body .selects select {
     display: block;
   }
   .automative-all .offcanvas-body a {
@@ -557,12 +563,6 @@ a {
   .section1,
   .section2 {
     width: 100%;
-  }
-  .automative-all .title-links select {
-    display: none;
-  }
-  .automative-all .title-text h1 {
-    text-align: center;
   }
   .main-items {
     flex-wrap: wrap;

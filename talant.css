@@ -10,6 +10,7 @@ body {
   background-image: url(./svg/dumalo\ background\ 378\ \(1\).svg), url(./svg/header\ dumalo\ 16\ \(1\).svg);
   background-repeat: no-repeat;
   background-position: top 300px right -50px, top 0 left 0;
+  background-color: #F5F5F7;
 }
 
 a {
@@ -25,18 +26,21 @@ a {
 .automative-all {
   padding-top: 98px;
   display: flex;
+  align-items: center !important;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 .automative-all .navbar-all {
   display: flex;
-  align-items: start;
+  align-items: center;
   gap: 30px;
 }
 .automative-all .navbar-all .navbar-ul {
+  position: relative;
   width: 100%;
   height: 36px;
+  margin: 0;
   padding-left: 0rem !important;
   gap: 32px;
 }
@@ -44,6 +48,30 @@ a {
   font-size: 23px;
   margin: 0px 32px;
   color: #1D71B8;
+}
+.automative-all .navbar-all .navbar-ul .link-talant:before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  border-radius: 20px;
+  top: 33px;
+  left: 150px;
+  background-color: #1D71B8;
+  z-index: 1;
+}
+.automative-all .navbar-all .navbar-ul .link-hr::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  max-width: 430px;
+  height: 10px;
+  background-color: #FFF;
+  top: 33px;
+  right: 0;
+  bottom: 0;
+  left: 30px;
+  border-radius: 20px;
 }
 .automative-all .navbar-all .selects {
   display: flex;
@@ -464,14 +492,16 @@ a {
   .navbar-all .nav-button {
     display: block !important;
   }
+  .navbar-all .nav-button button {
+    background-color: #1D71B8;
+    border-radius: 8px;
+  }
   .navbar-all .nav-button i {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     color: white !important;
-  }
-  .body {
-    align-items: center;
+    background-color: #1D71B8;
   }
   .body .navbar-ul {
     display: flex;
@@ -484,7 +514,8 @@ a {
   }
 }
 @media screen and (max-width: 1050px) {
-  .section1, .section2 {
+  .section1,
+  .section2 {
     width: 100%;
   }
   .automative-all .title-text h1 {
@@ -496,10 +527,15 @@ a {
   .offcanvas {
     height: 200px !important;
   }
+  .offcanvas .lang_active {
+    background-color: #1D71B8;
+    color: #FFF !important;
+  }
   .body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center !important;
     padding: 0px 20px;
     gap: 30px;
   }
@@ -507,6 +543,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin: 0;
     padding-left: 0rem !important;
     gap: 15px;
   }

@@ -559,9 +559,37 @@ a {
         }
     }
     
-    .offcanvas-body {
+    .body {
         display: flex;
         justify-content: space-between;
+        border: 1px solid green;
+
+        .navbar-ul {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid red;
+            a {
+                font-size: 23px;
+                color: #1D71B8;
+            }
+        }
+
+        .media-buttons {
+            width: 100%;
+            max-width: 200px;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid gold;
+            gap: 11px;
+
+            button {
+                width: 100%;
+                font-size: 23px;
+                text-transform: capitalize;
+            }
+        }
     }
 
     .main-items {

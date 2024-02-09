@@ -541,6 +541,12 @@ a {
             display: block !important;
         }
     }
+
+    .body {
+        .media-buttons {
+            display: none;
+        }
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -569,7 +575,6 @@ a {
             max-width: 400px;
             display: flex;
             justify-content: space-between;
-            border: 1px solid red;
             a {
                 font-size: 23px;
                 color: #1D71B8;
@@ -578,16 +583,22 @@ a {
 
         .media-buttons {
             width: 100%;
-            max-width: 200px;
+            max-width: 300px;
             display: flex;
             justify-content: space-between;
-            border: 1px solid gold;
-            gap: 11px;
+            gap: 20px;
 
             button {
                 width: 100%;
+                max-width: 100px;
                 font-size: 23px;
                 text-transform: capitalize;
+                border-radius: 10px;
+                // background-color: #000;
+                outline: 1px solid #1D71B8;
+                // outline-color: #1D71B8;
+                border: none;
+                color: #1D71B8;
             }
         }
     }

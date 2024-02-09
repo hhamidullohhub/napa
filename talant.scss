@@ -38,6 +38,51 @@ a {
     align-items: center;
     gap: 20px;
 
+    .navbar-all {
+        display: flex;
+        align-items: start;
+        gap: 30px;
+
+        .navbar-ul {
+            width: 100%;
+            height: 36px;
+            a {
+                font-size: 23px;
+                margin: 0px 32px;
+                color: #1D71B8;
+            }
+        }
+
+        .selects {
+            display: flex;
+            gap: 30px;
+            .selects1 {
+                padding: 4px 20px 4px 20px;
+                border-radius: 5px;
+            }
+
+            .selects2 {
+                padding: 4px 20px 4px 20px;
+                border-radius: 5px;
+            }
+        }
+
+        .nav-button {
+            display: none;
+            button {
+                width: 50px;
+                height: 50px;
+                border: none;
+                border-radius: 5px;
+
+                i {
+                    font-size: 35px;
+                    color: #1D71B8;
+                }
+            }
+        }
+    }
+
     .title-text {
         width: 100%;
         max-width: 360px;
@@ -63,7 +108,7 @@ a {
 }
 
 .section1 {
-    width: 70%;
+    width: 100%;
 
     .section-input {
         padding-bottom: 20px;
@@ -213,7 +258,7 @@ a {
 }
 
 .section2 {
-    width: 30%;
+    width: 100%;
     height: 1010px;
     padding: 30px;
     border: 1px solid #808080;
@@ -485,31 +530,14 @@ a {
     }
 }
 
-@media screen and (max-width: 1253px) {
-
-    .automative-all {
-        position: relative !important;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        .dropdown-top1 {
-            padding: 5px 0px 0px 0px;
-            width: 50px;
-            height: 50px;
-            position: absolute;
-            right: 0;
-            display: block;
-
-            i {
-                font-size: 30px;
-            }
+@media screen and (max-width: 1210px) {
+    .navbar-all {
+        .navbar-ul {
+            display: none;
         }
 
-        .dropdown {
-            right: 0;
-            position: absolute;
-            display: block;
+        .nav-button {
+            display: block !important;
         }
     }
 }

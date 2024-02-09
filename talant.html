@@ -16,8 +16,7 @@
     <link rel="stylesheet" href="/talant.css">
 </head>
 
-<body>
-
+<body>      
     <header class="header">
         <div class="container">
             <div class="automative-all">
@@ -55,7 +54,7 @@
                     </div>
 
                     <div class="nav-button">
-                        <button><i class="fa-solid fa-bars"></i></button>
+                        <button class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></button>
                     </div>
                 </div>
             </div>
@@ -511,6 +510,30 @@
         </div>
     </main>
 
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-ul">
+                <a href="/index.html">Jobs</a>
+                <a href="/talant.html">Talants</a>
+                <a href="#">Jobs</a>
+                <a href="#">Jobs</a>
+            </ul>
+
+            <div class="selects">
+                <select name="text" id="" class="selects1">
+                    <option value="text">Michel R</option>
+                </select>
+
+                <select name="text" id="" class="selects2">
+                    <option value="text">En</option>
+                </select>
+            </div>
+        </div>
+      </div>
 </body>
 
 </html>

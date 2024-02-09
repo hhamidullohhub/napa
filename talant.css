@@ -453,6 +453,9 @@ a {
 }
 
 @media screen and (max-width: 1210px) {
+  .navbar-all {
+    align-items: end;
+  }
   .navbar-all .navbar-ul {
     display: none;
   }
@@ -463,6 +466,13 @@ a {
 @media screen and (max-width: 1050px) {
   .automative-all .title-text h1 {
     text-align: center;
+  }
+  .automative-all .navbar-all .selects {
+    display: none;
+  }
+  .offcanvas-body {
+    display: flex;
+    justify-content: space-between;
   }
   .main-items {
     flex-wrap: wrap;

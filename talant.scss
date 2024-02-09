@@ -532,6 +532,7 @@ a {
 
 @media screen and (max-width: 1210px) {
     .navbar-all {
+        align-items: end;
         .navbar-ul {
             display: none;
         }
@@ -550,6 +551,17 @@ a {
                 text-align: center;
             }
         }
+
+        .navbar-all {
+            .selects {
+                display: none;
+            }
+        }
+    }
+    
+    .offcanvas-body {
+        display: flex;
+        justify-content: space-between;
     }
 
     .main-items {

@@ -130,6 +130,7 @@ a {
 }
 
 .michel-display {
+  position: relative;
   display: flex;
   justify-content: space-between;
   gap: 30px;
@@ -312,7 +313,6 @@ a {
   width: 450px;
   height: auto;
   background-position: right 0 top 150px;
-  border-left: 2px solid gray;
 }
 .michel2 .numbers {
   display: flex;
@@ -665,6 +665,15 @@ a {
 }
 .michel2 .member-since a:hover {
   background-color: #073a6e;
+}
+
+.line-left::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  left: 64%;
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 1200px) {

@@ -58,7 +58,6 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  border: 1px solid green;
 }
 .header-ul .selects select {
   padding: 8px 15px;
@@ -668,6 +667,30 @@ a {
   background-color: #073a6e;
 }
 
+@media screen and (max-width: 1200px) {
+  .navbar-all {
+    max-width: 400px !important;
+    justify-content: end;
+  }
+  .navbar-all li {
+    display: none;
+  }
+  .navbar-all .nav-button {
+    display: block;
+  }
+  .body .media-buttons {
+    display: none;
+  }
+  .body .navbar-ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .body .navbar-ul a {
+    font-size: 23px;
+    color: #1D71B8;
+  }
+}
 @media screen and (max-width: 1024px) {
   .nav .michel-texts {
     flex-wrap: wrap;
@@ -706,6 +729,18 @@ a {
   }
 }
 @media screen and (max-width: 800px) {
+  .navbar-all {
+    justify-content: end !important;
+  }
+  .navbar-all .selects {
+    display: none;
+  }
+  .offcanvas {
+    height: 200px !important;
+  }
+  .body .media-buttons {
+    display: block;
+  }
   .michel2 {
     width: 100%;
     padding-top: 10px;

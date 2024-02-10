@@ -55,11 +55,12 @@ a {
         align-items: center;
     }
 
-    li {display: flex;
+    li {
+        display: flex;
         gap: 32px;
+
         a {
             font-size: 23px;
-            // margin: 0px 16px;
             color: #1D71B8;
         }
     }
@@ -70,7 +71,7 @@ a {
         display: flex;
         justify-content: space-between;
         gap: 10px;
-        border: 1px solid green;
+
         select {
             padding: 8px 15px;
             border-radius: 8px;
@@ -81,9 +82,6 @@ a {
         display: none;
     }
 }
-
-
-
 
 .nav {
     .michel-texts {
@@ -812,8 +810,36 @@ a {
     }
 }
 
-@media screen and (max-width: 1253px) {
+@media screen and (max-width: 1200px) {
+    .navbar-all {
+        max-width: 400px !important;
+        justify-content: end;
 
+        li {
+            display: none;
+        }
+
+        .nav-button {
+            display: block;
+        }
+    }
+
+    .body {
+        .media-buttons {
+            display: none;
+        }
+
+        .navbar-ul {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+
+            a {
+                font-size: 23px;
+                color: #1D71B8;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -867,6 +893,29 @@ a {
 }
 
 @media screen and (max-width: 800px) {
+
+    .navbar-all {
+        justify-content: end !important;
+        .selects {
+            display: none;
+        }
+    }
+
+    .offcanvas {
+        height: 200px !important;
+    }
+
+    .body {
+        .media-buttons {
+            display: block;
+        }
+
+        .navbar-ul {
+
+            a {
+            }
+        }
+    }
 
     .michel2 {
         width: 100%;

@@ -906,12 +906,33 @@ a {
     }
 
     .body {
+        display: flex;
+        justify-content: space-between;
+        // align-items: center !important;
+        gap: 20px;
+        border: 1px solid gold;
         .media-buttons {
-            display: block;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 10px;
+            padding: 5px 10px;
+            gap: 5px;
+            border: 1px solid gray;
+
+            button {
+                width: 100%;
+                border-radius: 10px;
+                text-transform: capitalize;
+                font-size: 20px;
+                border: 1px solid #004F9D;
+                color: #073a6e;
+            }
         }
 
         .navbar-ul {
-
+            margin: 0px !important;
+            padding: 5px !important;
             a {
             }
         }

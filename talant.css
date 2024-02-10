@@ -509,6 +509,9 @@ a {
     gap: 100px;
     font-size: 23px;
   }
+  .body .navbar-ul a {
+    color: #1D71B8;
+  }
   .body .media-buttons {
     display: none;
   }

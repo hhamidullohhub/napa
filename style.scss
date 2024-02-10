@@ -19,6 +19,7 @@ body {
     background-image: url(./svg/header\ dumalo\ 16\ \(1\).svg), url(./svg/dumalo\ background\ 378\ \(1\).svg);
     background-repeat: no-repeat;
     background-position: top 0 left 0, right 0 top 350px;
+    background-color: #F5F5F7;
 }
 
 a {
@@ -56,12 +57,26 @@ a {
     }
 
     li {
+        position: relative;
         display: flex;
         gap: 32px;
+        padding-bottom: 3px;
+        // border: 1px solid green;
 
         a {
             font-size: 23px;
             color: #1D71B8;
+        }
+
+        .line-bottom::before {
+            content: "";
+            position: absolute;
+            width: 93%;
+            height: 6px;
+            left: 0;
+            bottom: 0;
+            background-color: #FFF;
+            border-radius: 10px;
         }
     }
 
@@ -235,8 +250,6 @@ a {
 
         .boxs {
             width: 100%;
-            // max-height: 1680px;
-            // border: 1px solid red;
             max-width: 860px;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -317,7 +330,6 @@ a {
                         align-items: start;
                         justify-content: space-between;
                         flex-wrap: wrap;
-                        // border: 1px solid red;
 
                         .odoo-icon-august {
                             font-size: 16px;
@@ -815,8 +827,8 @@ a {
     position: absolute;
     width: 1px;
     height: 100%;
-    left: 64%;
-    border: 1px solid red;
+    left: 882px;
+    border: 1px solid #CDCDCD;
 }
 
 @media screen and (max-width: 1200px) {

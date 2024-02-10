@@ -37,6 +37,7 @@ a {
     margin-top: 98px;
     display: flex;
     justify-content: $justify-space-between;
+    gap: 50px;
 
     .icon-napa {
         width: 100%;
@@ -46,75 +47,38 @@ a {
         justify-content: space-between;
     }
 
-    .dropdown {
-        display: none;
-        .dropdown-style {
-            width: 60px !important;
-            i {
-                font-size: 35px;
-            }
-        }
+    .navbar-all {
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    h1 {
-        color: $blue-color;
-        font-size: 45px;
-    }
-
-    .li-all {
-        max-width: 800px;
-        display: $display-flex;
-        justify-content: $justify-space-around;
-        align-items: $justify-center;
-        position: relative;
-
-        i {
-            display: none;
-        }
-
-        .under-line {
-            position: absolute;
-            border: 4px solid aliceblue;
-            width: 100%;
-            max-width: 530px;
-            border-radius: 15px;
-            bottom: 0;
-            left: 30px;
-        }
-
-        .under-line2 {
-            position: absolute;
-            border: 4px solid #1D71B8;
-            width: 100%;
-            max-width: 57px;
-            border-radius: 15px;
-            bottom: 0;
-            left: 30px;
-        }
-
-        .toogle {
-            display: none;
-        }
-
-        select {
-            text-align: center;
-            font-size: 15px;
-            padding: 8px 10px;
-            margin: 0px 10px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 5px 0px #1D71B8;
-            border: none;
-        }
-    }
-
-    .header-li {
-
+    li {display: flex;
+        gap: 32px;
         a {
-            text-transform: capitalize;
-            color: $blue-color;
             font-size: 23px;
-            margin: 0 32px;
+            // margin: 0px 16px;
+            color: #1D71B8;
         }
+    }
+
+    .selects {
+        width: 100%;
+        max-width: 200px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        border: 1px solid green;
+        select {
+            padding: 8px 15px;
+            border-radius: 8px;
+        }
+    }
+
+    .nav-button {
+        display: none;
     }
 }
 
@@ -849,55 +813,7 @@ a {
 }
 
 @media screen and (max-width: 1253px) {
-    .header-ul {
-        position: relative;
-        .dropdown {
-            right: 0;
-            position: absolute;
-            display: block;
-        }
-        .li-all {
-            position: relative;
 
-            .header-li,
-            select,
-            .under-line,
-            .under-line2 {
-                display: none;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 1080px) {
-    .header-ul {
-        .under-line {
-            position: absolute;
-            border: 5px solid aliceblue;
-            width: 100%;
-            max-width: 230px;
-            border-radius: 15px;
-            bottom: 0;
-            left: -100px;
-        }
-
-        .under-line2 {
-            position: absolute;
-            border: 5px solid #1D71B8;
-            width: 100%;
-            max-width: 57px;
-            border-radius: 15px;
-            bottom: 0;
-            left: 30px;
-        }
-
-        .header-li {
-            a {
-                font-size: 20px;
-                margin: 0px auto;
-            }
-        }
-    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -951,16 +867,6 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-    .header-ul {
-        // .li-all {
-        //     display: none;
-        // }
-
-        h1 {
-            text-align: center;
-            margin: auto;
-        }
-    }
 
     .michel2 {
         width: 100%;
@@ -988,13 +894,6 @@ a {
 }
 
 @media screen and (max-width:400px) {
-    .header-ul {
-        .li-all {
-            .toogle {
-                display: none;
-            }
-        }
-    }
 
     .work-history {
         .odoo {

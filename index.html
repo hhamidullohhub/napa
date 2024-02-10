@@ -33,66 +33,28 @@
                     <img src="./svg/V.svg" alt="">
                     <img src="./svg/E.svg" alt="">
                 </a>
-            
-                <div class="li-all hidden">
-                    <img class="toogle none" src="./svg/Star 14.svg" alt="">
-                    <li class="header-li">
-                        <a href="#" class="jobs-link active">jobs</a>
+
+                <div class="navbar-all">
+                    <li>
+                        <a href="./index.html">Jobs</a>
+                        <a href="/talant.html">Talant</a>
+                        <a href="#">About us</a>
+                        <a href="#">Contact us</a>
                     </li>
 
-                    <li class="header-li">
-                        <a href="/talant.html">talant</a>
-                    </li>
-
-                    <li class="header-li">
-                        <a href="#">about us</a>
-                    </li>
-
-                    <li class="header-li">
-                        <a href="#">contact us</a>
-                    </li>
-                    <!-- <i class="fa-solid fa-bars"></i> -->
-                    <div class="under-line"></div>
-                    <div class="under-line2"></div>
-                    <select name="" id="">
-                        <option value="">Michel R</option>
-                    </select>
-
-                    <select name="" id="">
-                        <option value="">eng</option>
-                    </select>
-                </div>
-
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-style" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fa-solid fa-bars"></i>
-                        <!-- Dropdown button -->
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li class="header-li">
-                            <a href="#" class="jobs-link active">jobs</a>
-                        </li>
-    
-                        <li class="header-li">
-                            <a href="/talant.html">talant</a>
-                        </li>
-    
-                        <li class="header-li">
-                            <a href="#">about us</a>
-                        </li>
-    
-                        <li class="header-li">
-                            <a href="#">contact us</a>
-                        </li>
+                    <div class="selects">
                         <select name="" id="">
                             <option value="">Michel R</option>
                         </select>
-    
                         <select name="" id="">
-                            <option value="">eng</option>
+                            <option value="">en</option>
                         </select>
-                    </ul>
+                    </div>
+
+                    <div class="nav-button">
+                        <button class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                            role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></button>
+                    </div>
                 </div>
             </ul>
         </div>
@@ -581,6 +543,27 @@
         </div>
     </nav>
     <script src="./index.js"></script>
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="body">
+            <ul class="navbar-ul">
+                <a href="/index.html">Jobs</a>
+                <a href="/talant.html">Talants</a>
+                <a href="#">Jobs</a>
+                <a href="#">Jobs</a>
+            </ul>
+
+            <div class="media-buttons">
+                <button>uz</button>
+                <button>ru</button>
+                <button class="lang_active">en</button>
+            </div>
+        </div>
+    </div>
 
 </body>
 

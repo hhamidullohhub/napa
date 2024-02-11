@@ -53,7 +53,7 @@ a {
 .automative-all .navbar-all .navbar-ul .link-talant:before {
   content: "";
   position: absolute !important;
-  width: 80px;
+  width: 74px;
   height: 10px;
   border-radius: 20px;
   bottom: 0;

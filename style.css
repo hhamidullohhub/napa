@@ -65,6 +65,15 @@ a {
   background-color: #FFF;
   border-radius: 20px;
 }
+.header-ul li .line-bottom2::before {
+  content: "sas";
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  background-color: #1D71B8;
+}
 .header-ul .selects {
   width: 100%;
   max-width: 200px;

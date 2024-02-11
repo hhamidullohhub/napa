@@ -49,13 +49,14 @@ a {
             position: relative;
             width: 100%;
             height: 36px;
+            display: flex;
             margin: 0;
             padding-left: 0rem !important;
-            gap: 32px;
+            padding-bottom: 40px;
+            gap: 32px !important;
 
             a {
                 font-size: 23px;
-                margin: 0px 32px;
                 color: #1D71B8;
             }
 
@@ -65,8 +66,7 @@ a {
                 width: 80px;
                 height: 10px;
                 border-radius: 20px;
-                top: 33px !important;
-                left: 150px !important;
+                bottom: 0;
                 background-color: #1D71B8;
                 z-index: 1 !important;
             }
@@ -74,14 +74,12 @@ a {
             .link-hr::before {
                 content: "";
                 position: absolute;
-                width: 100%;
-                max-width: 430px;
+                width: 93%;
                 height: 10px;
                 background-color: #FFF;
-                top: 33px;
                 right: 0;
+                left: 0;
                 bottom: 0;
-                left: 30px;
                 border-radius: 20px;
             }
         }
@@ -570,7 +568,10 @@ a {
         align-items: end;
 
         .navbar-ul {
-            display: none;
+            display: none !important;
+            a {
+                display: none;
+            }
         }
 
         .nav-button {

@@ -60,7 +60,7 @@ a {
         position: relative;
         display: flex;
         gap: 32px;
-        padding-bottom: 3px;
+        padding-bottom: 6px;
         // border: 1px solid green;
 
         a {
@@ -72,11 +72,11 @@ a {
             content: "";
             position: absolute;
             width: 93%;
-            height: 6px;
+            height: 10px;
             left: 0;
             bottom: 0;
             background-color: #FFF;
-            border-radius: 10px;
+            border-radius: 20px;
         }
     }
 

@@ -262,12 +262,13 @@ a {
         .boxs {
             width: 100%;
             max-width: 860px;
-            // height: 1000px;
+            height: 1000px;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             justify-content: space-between;
-            border: 1px solid red;
+            border: 1px solid gray;
             gap: 30px;
+            overflow: scroll;
 
             .boxs-child-father {
                 width: 100%;

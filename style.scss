@@ -1007,6 +1007,16 @@ a {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .nav-all {
+        border: 1px solid red;
+        .nav-button {
+            button {
+            }
+        }
+    }
+}
+
 @media screen and (max-width:400px) {
 
     .work-history {

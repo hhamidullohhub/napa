@@ -828,6 +828,11 @@ a {
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 480px) {
+  .nav-all {
+    border: 1px solid red;
+  }
+}
 @media screen and (max-width: 400px) {
   .work-history .odoo .napa {
     flex-wrap: wrap;
